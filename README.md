@@ -17,17 +17,6 @@ phiga.tech is a working name for our group at CSE 6242: Data and Visual Analytic
 
 # American Physics Society Cross Citations Network Map
 
-The APS (American Physics Society) makes available two data sets based on its corpus:
-
-### Citing article pairs: 
-* This data set consists of pairs of APS articles that cite each other. For instance, if article A cites article B, there will be an entry in the data set consisting of the pair of DOIs for A and B. This data set will be formatted as a comma-separated values (CSV) file consisting of the DOI pairs, one pair per line.
-
-### Article metadata: 
-* This data set consists of the basic metadata of all APS journal articles. The metadata provided includes the following fields: DOI, journal, volume, issue, first page and last page OR article id and number of pages, title, authors, affiliations, publication history, PACS codes, table of contents heading, article type, and copyright information.
-Please note that we already have the data and the citing article is in the CSV file while the article metadata is on individual JSON files (> 600.000 files).
-
-# Presentation
-
 <p align="center">
 <img src="./img/presentation/page1.png" />
 </p>
