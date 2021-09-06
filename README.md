@@ -2,7 +2,7 @@
 phiga.tech is a working name for our group at CSE 6242: Data and Visual Analytics for the masters in analytics from Georgia tech.
 
 <p align="center">
-<img src="./img/presentation/page0.png" />
+<img src="./presentation/page0.png" />
 </p>
 
 # Technology Used
@@ -18,15 +18,15 @@ phiga.tech is a working name for our group at CSE 6242: Data and Visual Analytic
 # American Physics Society Cross Citations Network Map
 
 <p align="center">
-<img src="./img/presentation/page1.png" />
+<img src="./presentation/page1.png" />
 </p>
 
 <p align="center">
-<img src="./img/presentation/page2.png" />
+<img src="./presentation/page2.png" />
 </p>
 
 <p align="center">
-<img src="./img/presentation/page3.png" />
+<img src="./presentation/page3.png" />
 </p>
 
 

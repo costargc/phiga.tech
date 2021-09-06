@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Roboto&display=swap');
+
+
+  
+.text{
+    font-family: "Roboto";
+    min-width: 300px;
+    color: #b3a369;
+  }

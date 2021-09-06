@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Roboto&display=swap');
+
+
+.wrapper{
+    position: relative;
+  }
+
+.phytext{
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    font-family: "GFS Didot";
+    color: #b3a369;
+    font-size: 60px;
+  }
+  
+  .gatechtext{
+    position: absolute;
+    top: 165px;
+    width: 100%;
+    font-family: "Roboto";
+    min-width: 300px;
+    color: #b3a369;
+  }
+
+
+  
+.bcircle1{
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 300px; 
+    border-radius: 50%;
+    border: 2px solid #b3a369;
+
+  }
+
+    
+.bcircle2{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 280px;
+    height: 280px; 
+    border-radius: 50%;
+    border: 2px dashed #b3a369;
+    animation-name: spin;
+    animation-duration: 50000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+  }
+
+      
+.bcircle3{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 260px;
+    height: 260px; 
+    border-radius: 50%;
+    border: 1px solid #b3a369;
+  }
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+  }
+
+
+  
