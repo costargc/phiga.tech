@@ -3,6 +3,7 @@ node_modules
 /webclient/build
 /webclient/.pnp
 /webclient/.pnp.js
+/data_analysis/.ipynb_checkpoints
 
 # testing
 /webclient/coverage
