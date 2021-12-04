@@ -30,7 +30,7 @@ No installation is required. You can access the webservice here at https://phiga
 * for the API: https://phiga-tech.herokuapp.com/api
 * for the Map: https://phiga-tech.herokuapp.com/map
 
-The full source code (with the express and nodejs backend) is located at: https://github.com/costargc/phiga.tech/
+The full source code (with the express and nodejs backend) is located at: https://github.com/costargc/phiga.tech/. The CODE folder contains 2 Juypter notebooks that show how to make use of the various functions of the API. 
 
 
 ### EXECUTION - How to run a demo on your code
