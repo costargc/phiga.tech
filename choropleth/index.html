@@ -111,7 +111,7 @@
 
             for (x in Groups_unique) {
 
-                if (Groups_unique[x] == "Catan") {
+                if (Groups_unique[x] == "ALL") {
                     d3.select("#GroupDropdown")
                         .append("option")
                         .attr("value", Groups_unique[x])
@@ -219,15 +219,15 @@
             threshold = d3.scaleLinear()
                 .domain([
                     d3.min(result),
-                    (d3.max(result) - d3.min(result)) / 4 * 1,
-                    (d3.max(result) - d3.min(result)) / 4 * 2,
-                    (d3.max(result) - d3.min(result)) / 4 * 3,
-                    d3.max(result)
+                    (d3.max(result)+1 - d3.min(result)) / 4 * 1,
+                    (d3.max(result)+1 - d3.min(result)) / 4 * 2,
+                    (d3.max(result)+1 - d3.min(result)) / 4 * 3,
+                    d3.max(result)+1
                 ])
                 .range(mycolors)
             // console.log(d3.schemeBlues[splitnum])
             legend_text = [
-                (d3.min(result)).toFixed(2) + " to " + ((d3.max(result) - d3.min(result)) / 5 * 1 - 1).toFixed(2),
+                (d3.min(result)).toFixed(2) + " to " + ((d3.max(result) - d3.min(result)) / 5 * 1 - 1+1).toFixed(2),
                 ((d3.max(result) - d3.min(result)) / 5 * 1).toFixed(2) + " to " + ((d3.max(result) - d3.min(result)) / 5 * 2).toFixed(2),
                 ((d3.max(result) - d3.min(result)) / 5 * 2).toFixed(2) + " to " + ((d3.max(result) - d3.min(result)) / 5 * 3).toFixed(2),
                 ((d3.max(result) - d3.min(result)) / 5 * 3).toFixed(2) + " to " + ((d3.max(result) - d3.min(result)) / 5 * 4).toFixed(2),

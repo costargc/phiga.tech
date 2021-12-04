@@ -1,178 +1,4072 @@
-Country,Value,Group,Key
-Afghanistan,1,ALL,0
-Angola,1,ALL,0
-Albania,4,ALL,0
-United Arab Emirates,156,ALL,0
-Argentina,5711,ALL,0
-Armenia,677,ALL,0
-Antarctica,0,ALL,0
-French Southern and Antarctic Lands,0,ALL,0
-Australia,11409,ALL,0
-Austria,7424,ALL,0
-Azerbaijan,117,ALL,0
-Burundi,4,ALL,0
-Belgium,8451,ALL,0
-Benin,27,ALL,0
-Burkina Faso,4,ALL,0
-Bangladesh,111,ALL,0
-Bulgaria,1190,ALL,0
-The Bahamas,6,ALL,0
-Bosnia and Herzegovina,100,ALL,0
-Belarus,642,ALL,0
-Belize,0,ALL,0
-Bolivia,17,ALL,0
-Brazil,14247,ALL,0
-Brunei,1,ALL,0
-Bhutan,0,ALL,0
-Botswana,9,ALL,0
-Central African Republic,0,ALL,0
-Canada,27294,ALL,0
-Switzerland,18947,ALL,0
-Chile,2574,ALL,0
-China,44489,ALL,0
-Ivory Coast,1,ALL,0
-Cameroon,126,ALL,0
-Democratic Republic of the Congo,0,ALL,0
-Republic of the Congo,0,ALL,0
-Colombia,759,ALL,0
-Costa Rica,59,ALL,0
-Cuba,261,ALL,0
-Northern Cyprus,8,ALL,0
-Cyprus,286,ALL,0
-Czech Republic,3896,ALL,0
-Germany,88006,ALL,0
-Djibouti,1,ALL,0
-Denmark,8090,ALL,0
-Dominican Republic,4,ALL,0
-Algeria,360,ALL,0
-Ecuador,167,ALL,0
-Egypt,539,ALL,0
-Eritrea,2,ALL,0
-Spain,22961,ALL,0
-Estonia,454,ALL,0
-Ethiopia,38,ALL,0
-Finland,5522,ALL,0
-Fiji,0,ALL,0
-Falkland Islands,0,ALL,0
-France,53160,ALL,0
-Gabon,7,ALL,0
-England,4994,ALL,0
-Georgia,4109,ALL,0
-Ghana,10,ALL,0
-Guinea,2,ALL,0
-Gambia,0,ALL,0
-Guinea Bissau,0,ALL,0
-Equatorial Guinea,0,ALL,0
-Greece,3681,ALL,0
-Greenland,0,ALL,0
-Guatemala,6,ALL,0
-Guyana,1,ALL,0
-Honduras,3,ALL,0
-Croatia,1292,ALL,0
-Haiti,0,ALL,0
-Hungary,4150,ALL,0
-Indonesia,205,ALL,0
-India,29387,ALL,0
-Ireland,2272,ALL,0
-Iran,2815,ALL,0
-Iraq,45,ALL,0
-Iceland,323,ALL,0
-Israel,15054,ALL,0
-Italy,32767,ALL,0
-Jamaica,58,ALL,0
-Jordan,134,ALL,0
-Japan,50824,ALL,0
-Kazakhstan,232,ALL,0
-Kenya,11,ALL,0
-Kyrgyzstan,16,ALL,0
-Cambodia,3,ALL,0
-South Korea,644,ALL,0
-Kosovo,0,ALL,0
-Kuwait,83,ALL,0
-Laos,0,ALL,0
-Lebanon,151,ALL,0
-Liberia,0,ALL,0
-Libya,17,ALL,0
-Sri Lanka,53,ALL,0
-Lesotho,1,ALL,0
-Lithuania,445,ALL,0
-Luxembourg,293,ALL,0
-Latvia,304,ALL,0
-Morocco,253,ALL,0
-Moldova,236,ALL,0
-Madagascar,3,ALL,0
-Mexico,17805,ALL,0
-Macedonia,116,ALL,0
-Mali,294,ALL,0
-Myanmar,9,ALL,0
-Montenegro,82,ALL,0
-Mongolia,97,ALL,0
-Mozambique,0,ALL,0
-Mauritania,0,ALL,0
-Malawi,0,ALL,0
-Malaysia,212,ALL,0
-Namibia,0,ALL,0
-New Caledonia,1,ALL,0
-Niger,79,ALL,0
-Nigeria,62,ALL,0
-Nicaragua,0,ALL,0
-Netherlands,13885,ALL,0
-Norway,2919,ALL,0
-Nepal,17,ALL,0
-New Zealand,1669,ALL,0
-Oman,2628,ALL,0
-Pakistan,569,ALL,0
-Panama,16,ALL,0
-Peru,694,ALL,0
-Philippines,88,ALL,0
-Papua New Guinea,1,ALL,0
-Poland,11804,ALL,0
-Puerto Rico,312,ALL,0
-North Korea,0,ALL,0
-Portugal,3812,ALL,0
-Paraguay,2,ALL,0
-Qatar,204,ALL,0
-Romania,1889,ALL,0
-Russia,23446,ALL,0
-Rwanda,1,ALL,0
-Western Sahara,0,ALL,0
-Saudi Arabia,747,ALL,0
-Sudan,23,ALL,0
-South Sudan,0,ALL,0
-Senegal,7,ALL,0
-Solomon Islands,0,ALL,0
-Sierra Leone,0,ALL,0
-El Salvador,0,ALL,0
-Somaliland,0,ALL,0
-Somalia,0,ALL,0
-Republic of Serbia,5,ALL,0
-Suriname,0,ALL,0
-Slovakia,1209,ALL,0
-Slovenia,1853,ALL,0
-Sweden,11813,ALL,0
-Swaziland,5,ALL,0
-Syria,17,ALL,0
-Chad,32,ALL,0
-Togo,11,ALL,0
-Thailand,368,ALL,0
-Tajikistan,8,ALL,0
-Turkmenistan,0,ALL,0
-East Timor,0,ALL,0
-Trinidad and Tobago,1,ALL,0
-Tunisia,157,ALL,0
-Turkey,2243,ALL,0
-Taiwan,6315,ALL,0
-United Republic of Tanzania,0,ALL,0
-Uganda,0,ALL,0
-Ukraine,4106,ALL,0
-Uruguay,246,ALL,0
-USA,116302,ALL,0
-Uzbekistan,353,ALL,0
-Venezuela,585,ALL,0
-Vietnam,479,ALL,0
-Vanuatu,0,ALL,0
-West Bank,36,ALL,0
-Yemen,11,ALL,0
-South Africa,2008,ALL,0
-Zambia,5,ALL,0
-Zimbabwe,3,ALL,0
+Group,Country,Value,Key
+PR,Afghanistan,0,0
+PR,Angola,0,0
+PR,Albania,0,0
+PR,United Arab Emirates,0,0
+PR,Argentina,33,0
+PR,Armenia,0,0
+PR,Antarctica,0,0
+PR,French Southern and Antarctic Lands,0,0
+PR,Australia,223,0
+PR,Austria,14,0
+PR,Azerbaijan,0,0
+PR,Burundi,0,0
+PR,Belgium,53,0
+PR,Benin,0,0
+PR,Burkina Faso,0,0
+PR,Bangladesh,0,0
+PR,Bulgaria,0,0
+PR,The Bahamas,0,0
+PR,Bosnia and Herzegovina,0,0
+PR,Belarus,0,0
+PR,Belize,0,0
+PR,Bolivia,2,0
+PR,Brazil,70,0
+PR,Brunei,0,0
+PR,Bhutan,0,0
+PR,Botswana,0,0
+PR,Central African Republic,0,0
+PR,Canada,950,0
+PR,Switzerland,269,0
+PR,Chile,7,0
+PR,China,79,0
+PR,Ivory Coast,0,0
+PR,Cameroon,0,0
+PR,Democratic Republic of the Congo,0,0
+PR,Republic of the Congo,0,0
+PR,Colombia,2,0
+PR,Costa Rica,0,0
+PR,Cuba,0,0
+PR,Northern Cyprus,0,0
+PR,Cyprus,0,0
+PR,Czech Republic,0,0
+PR,Germany,193,0
+PR,Djibouti,0,0
+PR,Denmark,205,0
+PR,Dominican Republic,0,0
+PR,Algeria,0,0
+PR,Ecuador,0,0
+PR,Egypt,6,0
+PR,Eritrea,2,0
+PR,Spain,3,0
+PR,Estonia,1,0
+PR,Ethiopia,0,0
+PR,Finland,31,0
+PR,Fiji,0,0
+PR,Falkland Islands,0,0
+PR,France,374,0
+PR,Gabon,0,0
+PR,England,1069,0
+PR,Georgia,90,0
+PR,Ghana,1,0
+PR,Guinea,0,0
+PR,Gambia,0,0
+PR,Guinea Bissau,0,0
+PR,Equatorial Guinea,0,0
+PR,Greece,6,0
+PR,Greenland,0,0
+PR,Guatemala,0,0
+PR,Guyana,0,0
+PR,Honduras,0,0
+PR,Croatia,0,0
+PR,Haiti,0,0
+PR,Hungary,38,0
+PR,Indonesia,0,0
+PR,India,1673,0
+PR,Ireland,60,0
+PR,Iran,0,0
+PR,Iraq,0,0
+PR,Iceland,0,0
+PR,Israel,379,0
+PR,Italy,433,0
+PR,Jamaica,19,0
+PR,Jordan,0,0
+PR,Japan,450,0
+PR,Kazakhstan,0,0
+PR,Kenya,0,0
+PR,Kyrgyzstan,0,0
+PR,Cambodia,0,0
+PR,South Korea,0,0
+PR,Kosovo,0,0
+PR,Kuwait,0,0
+PR,Laos,0,0
+PR,Lebanon,7,0
+PR,Liberia,0,0
+PR,Libya,0,0
+PR,Sri Lanka,0,0
+PR,Lesotho,0,0
+PR,Lithuania,0,0
+PR,Luxembourg,0,0
+PR,Latvia,0,0
+PR,Morocco,0,0
+PR,Moldova,0,0
+PR,Madagascar,0,0
+PR,Mexico,915,0
+PR,Macedonia,0,0
+PR,Mali,49,0
+PR,Myanmar,0,0
+PR,Montenegro,0,0
+PR,Mongolia,0,0
+PR,Mozambique,0,0
+PR,Mauritania,0,0
+PR,Malawi,0,0
+PR,Malaysia,1,0
+PR,Namibia,0,0
+PR,New Caledonia,0,0
+PR,Niger,2,0
+PR,Nigeria,2,0
+PR,Nicaragua,0,0
+PR,Netherlands,119,0
+PR,Norway,80,0
+PR,Nepal,0,0
+PR,New Zealand,17,0
+PR,Oman,7,0
+PR,Pakistan,27,0
+PR,Panama,1,0
+PR,Peru,0,0
+PR,Philippines,3,0
+PR,Papua New Guinea,0,0
+PR,Poland,71,0
+PR,Puerto Rico,11,0
+PR,North Korea,0,0
+PR,Portugal,5,0
+PR,Paraguay,0,0
+PR,Qatar,0,0
+PR,Romania,6,0
+PR,Russia,3,0
+PR,Rwanda,0,0
+PR,Western Sahara,0,0
+PR,Saudi Arabia,0,0
+PR,Sudan,1,0
+PR,South Sudan,0,0
+PR,Senegal,0,0
+PR,Solomon Islands,0,0
+PR,Sierra Leone,0,0
+PR,El Salvador,0,0
+PR,Somaliland,0,0
+PR,Somalia,0,0
+PR,Republic of Serbia,0,0
+PR,Suriname,0,0
+PR,Slovakia,22,0
+PR,Slovenia,0,0
+PR,Sweden,253,0
+PR,Swaziland,0,0
+PR,Syria,0,0
+PR,Chad,0,0
+PR,Togo,0,0
+PR,Thailand,0,0
+PR,Tajikistan,0,0
+PR,Turkmenistan,0,0
+PR,East Timor,0,0
+PR,Trinidad and Tobago,0,0
+PR,Tunisia,0,0
+PR,Turkey,12,0
+PR,Taiwan,6,0
+PR,United Republic of Tanzania,0,0
+PR,Uganda,0,0
+PR,Ukraine,0,0
+PR,Uruguay,0,0
+PR,USA,214,0
+PR,Uzbekistan,0,0
+PR,Venezuela,4,0
+PR,Vietnam,0,0
+PR,Vanuatu,0,0
+PR,West Bank,0,0
+PR,Yemen,0,0
+PR,South Africa,50,0
+PR,Zambia,0,0
+PR,Zimbabwe,0,0
+PRA,Afghanistan,0,0
+PRA,Angola,0,0
+PRA,Albania,0,0
+PRA,United Arab Emirates,35,0
+PRA,Argentina,879,0
+PRA,Armenia,142,0
+PRA,Antarctica,0,0
+PRA,French Southern and Antarctic Lands,0,0
+PRA,Australia,3004,0
+PRA,Austria,1418,0
+PRA,Azerbaijan,4,0
+PRA,Burundi,1,0
+PRA,Belgium,1029,0
+PRA,Benin,1,0
+PRA,Burkina Faso,0,0
+PRA,Bangladesh,14,0
+PRA,Bulgaria,206,0
+PRA,The Bahamas,0,0
+PRA,Bosnia and Herzegovina,63,0
+PRA,Belarus,138,0
+PRA,Belize,0,0
+PRA,Bolivia,0,0
+PRA,Brazil,2007,0
+PRA,Brunei,0,0
+PRA,Bhutan,0,0
+PRA,Botswana,1,0
+PRA,Central African Republic,0,0
+PRA,Canada,3844,0
+PRA,Switzerland,1134,0
+PRA,Chile,267,0
+PRA,China,8703,0
+PRA,Ivory Coast,0,0
+PRA,Cameroon,30,0
+PRA,Democratic Republic of the Congo,0,0
+PRA,Republic of the Congo,0,0
+PRA,Colombia,109,0
+PRA,Costa Rica,6,0
+PRA,Cuba,13,0
+PRA,Northern Cyprus,0,0
+PRA,Cyprus,4,0
+PRA,Czech Republic,667,0
+PRA,Germany,10125,0
+PRA,Djibouti,0,0
+PRA,Denmark,1290,0
+PRA,Dominican Republic,0,0
+PRA,Algeria,100,0
+PRA,Ecuador,13,0
+PRA,Egypt,56,0
+PRA,Eritrea,0,0
+PRA,Spain,3008,0
+PRA,Estonia,23,0
+PRA,Ethiopia,17,0
+PRA,Finland,804,0
+PRA,Fiji,0,0
+PRA,Falkland Islands,0,0
+PRA,France,5494,0
+PRA,Gabon,4,0
+PRA,England,646,0
+PRA,Georgia,921,0
+PRA,Ghana,1,0
+PRA,Guinea,0,0
+PRA,Gambia,0,0
+PRA,Guinea Bissau,0,0
+PRA,Equatorial Guinea,0,0
+PRA,Greece,541,0
+PRA,Greenland,0,0
+PRA,Guatemala,0,0
+PRA,Guyana,0,0
+PRA,Honduras,1,0
+PRA,Croatia,128,0
+PRA,Haiti,0,0
+PRA,Hungary,694,0
+PRA,Indonesia,15,0
+PRA,India,3649,0
+PRA,Ireland,345,0
+PRA,Iran,368,0
+PRA,Iraq,5,0
+PRA,Iceland,18,0
+PRA,Israel,2183,0
+PRA,Italy,4024,0
+PRA,Jamaica,15,0
+PRA,Jordan,25,0
+PRA,Japan,4559,0
+PRA,Kazakhstan,27,0
+PRA,Kenya,1,0
+PRA,Kyrgyzstan,0,0
+PRA,Cambodia,3,0
+PRA,South Korea,55,0
+PRA,Kosovo,0,0
+PRA,Kuwait,11,0
+PRA,Laos,0,0
+PRA,Lebanon,13,0
+PRA,Liberia,0,0
+PRA,Libya,1,0
+PRA,Sri Lanka,6,0
+PRA,Lesotho,0,0
+PRA,Lithuania,140,0
+PRA,Luxembourg,7,0
+PRA,Latvia,76,0
+PRA,Morocco,30,0
+PRA,Moldova,14,0
+PRA,Madagascar,0,0
+PRA,Mexico,2074,0
+PRA,Macedonia,36,0
+PRA,Mali,23,0
+PRA,Myanmar,0,0
+PRA,Montenegro,10,0
+PRA,Mongolia,22,0
+PRA,Mozambique,0,0
+PRA,Mauritania,0,0
+PRA,Malawi,0,0
+PRA,Malaysia,84,0
+PRA,Namibia,0,0
+PRA,New Caledonia,1,0
+PRA,Niger,5,0
+PRA,Nigeria,4,0
+PRA,Nicaragua,0,0
+PRA,Netherlands,1415,0
+PRA,Norway,333,0
+PRA,Nepal,0,0
+PRA,New Zealand,574,0
+PRA,Oman,256,0
+PRA,Pakistan,187,0
+PRA,Panama,4,0
+PRA,Peru,114,0
+PRA,Philippines,21,0
+PRA,Papua New Guinea,0,0
+PRA,Poland,2074,0
+PRA,Puerto Rico,40,0
+PRA,North Korea,0,0
+PRA,Portugal,307,0
+PRA,Paraguay,0,0
+PRA,Qatar,113,0
+PRA,Romania,219,0
+PRA,Russia,2982,0
+PRA,Rwanda,0,0
+PRA,Western Sahara,0,0
+PRA,Saudi Arabia,173,0
+PRA,Sudan,3,0
+PRA,South Sudan,0,0
+PRA,Senegal,1,0
+PRA,Solomon Islands,0,0
+PRA,Sierra Leone,0,0
+PRA,El Salvador,0,0
+PRA,Somaliland,0,0
+PRA,Somalia,0,0
+PRA,Republic of Serbia,0,0
+PRA,Suriname,0,0
+PRA,Slovakia,218,0
+PRA,Slovenia,125,0
+PRA,Sweden,1471,0
+PRA,Swaziland,0,0
+PRA,Syria,0,0
+PRA,Chad,8,0
+PRA,Togo,2,0
+PRA,Thailand,20,0
+PRA,Tajikistan,0,0
+PRA,Turkmenistan,0,0
+PRA,East Timor,0,0
+PRA,Trinidad and Tobago,1,0
+PRA,Tunisia,35,0
+PRA,Turkey,303,0
+PRA,Taiwan,765,0
+PRA,United Republic of Tanzania,0,0
+PRA,Uganda,0,0
+PRA,Ukraine,222,0
+PRA,Uruguay,56,0
+PRA,USA,12292,0
+PRA,Uzbekistan,92,0
+PRA,Venezuela,59,0
+PRA,Vietnam,70,0
+PRA,Vanuatu,0,0
+PRA,West Bank,8,0
+PRA,Yemen,1,0
+PRA,South Africa,199,0
+PRA,Zambia,3,0
+PRA,Zimbabwe,1,0
+PRAB,Afghanistan,0,0
+PRAB,Angola,0,0
+PRAB,Albania,0,0
+PRAB,United Arab Emirates,0,0
+PRAB,Argentina,0,0
+PRAB,Armenia,2,0
+PRAB,Antarctica,0,0
+PRAB,French Southern and Antarctic Lands,0,0
+PRAB,Australia,6,0
+PRAB,Austria,6,0
+PRAB,Azerbaijan,0,0
+PRAB,Burundi,0,0
+PRAB,Belgium,3,0
+PRAB,Benin,0,0
+PRAB,Burkina Faso,0,0
+PRAB,Bangladesh,0,0
+PRAB,Bulgaria,0,0
+PRAB,The Bahamas,0,0
+PRAB,Bosnia and Herzegovina,0,0
+PRAB,Belarus,8,0
+PRAB,Belize,0,0
+PRAB,Bolivia,0,0
+PRAB,Brazil,1,0
+PRAB,Brunei,0,0
+PRAB,Bhutan,0,0
+PRAB,Botswana,0,0
+PRAB,Central African Republic,0,0
+PRAB,Canada,13,0
+PRAB,Switzerland,245,0
+PRAB,Chile,0,0
+PRAB,China,132,0
+PRAB,Ivory Coast,0,0
+PRAB,Cameroon,1,0
+PRAB,Democratic Republic of the Congo,0,0
+PRAB,Republic of the Congo,0,0
+PRAB,Colombia,2,0
+PRAB,Costa Rica,0,0
+PRAB,Cuba,0,0
+PRAB,Northern Cyprus,0,0
+PRAB,Cyprus,0,0
+PRAB,Czech Republic,5,0
+PRAB,Germany,166,0
+PRAB,Djibouti,0,0
+PRAB,Denmark,3,0
+PRAB,Dominican Republic,0,0
+PRAB,Algeria,0,0
+PRAB,Ecuador,0,0
+PRAB,Egypt,0,0
+PRAB,Eritrea,0,0
+PRAB,Spain,28,0
+PRAB,Estonia,0,0
+PRAB,Ethiopia,0,0
+PRAB,Finland,10,0
+PRAB,Fiji,0,0
+PRAB,Falkland Islands,0,0
+PRAB,France,86,0
+PRAB,Gabon,0,0
+PRAB,England,2,0
+PRAB,Georgia,0,0
+PRAB,Ghana,0,0
+PRAB,Guinea,0,0
+PRAB,Gambia,0,0
+PRAB,Guinea Bissau,0,0
+PRAB,Equatorial Guinea,0,0
+PRAB,Greece,10,0
+PRAB,Greenland,0,0
+PRAB,Guatemala,0,0
+PRAB,Guyana,0,0
+PRAB,Honduras,0,0
+PRAB,Croatia,0,0
+PRAB,Haiti,0,0
+PRAB,Hungary,6,0
+PRAB,Indonesia,2,0
+PRAB,India,18,0
+PRAB,Ireland,0,0
+PRAB,Iran,7,0
+PRAB,Iraq,0,0
+PRAB,Iceland,0,0
+PRAB,Israel,12,0
+PRAB,Italy,103,0
+PRAB,Jamaica,0,0
+PRAB,Jordan,1,0
+PRAB,Japan,104,0
+PRAB,Kazakhstan,0,0
+PRAB,Kenya,0,0
+PRAB,Kyrgyzstan,0,0
+PRAB,Cambodia,0,0
+PRAB,South Korea,0,0
+PRAB,Kosovo,0,0
+PRAB,Kuwait,0,0
+PRAB,Laos,0,0
+PRAB,Lebanon,0,0
+PRAB,Liberia,0,0
+PRAB,Libya,0,0
+PRAB,Sri Lanka,0,0
+PRAB,Lesotho,0,0
+PRAB,Lithuania,1,0
+PRAB,Luxembourg,0,0
+PRAB,Latvia,0,0
+PRAB,Morocco,0,0
+PRAB,Moldova,0,0
+PRAB,Madagascar,0,0
+PRAB,Mexico,31,0
+PRAB,Macedonia,0,0
+PRAB,Mali,0,0
+PRAB,Myanmar,0,0
+PRAB,Montenegro,0,0
+PRAB,Mongolia,0,0
+PRAB,Mozambique,0,0
+PRAB,Mauritania,0,0
+PRAB,Malawi,0,0
+PRAB,Malaysia,1,0
+PRAB,Namibia,0,0
+PRAB,New Caledonia,0,0
+PRAB,Niger,0,0
+PRAB,Nigeria,0,0
+PRAB,Nicaragua,0,0
+PRAB,Netherlands,8,0
+PRAB,Norway,11,0
+PRAB,Nepal,0,0
+PRAB,New Zealand,0,0
+PRAB,Oman,0,0
+PRAB,Pakistan,0,0
+PRAB,Panama,0,0
+PRAB,Peru,0,0
+PRAB,Philippines,0,0
+PRAB,Papua New Guinea,0,0
+PRAB,Poland,8,0
+PRAB,Puerto Rico,0,0
+PRAB,North Korea,0,0
+PRAB,Portugal,7,0
+PRAB,Paraguay,0,0
+PRAB,Qatar,0,0
+PRAB,Romania,0,0
+PRAB,Russia,71,0
+PRAB,Rwanda,0,0
+PRAB,Western Sahara,0,0
+PRAB,Saudi Arabia,0,0
+PRAB,Sudan,0,0
+PRAB,South Sudan,0,0
+PRAB,Senegal,0,0
+PRAB,Solomon Islands,0,0
+PRAB,Sierra Leone,0,0
+PRAB,El Salvador,0,0
+PRAB,Somaliland,0,0
+PRAB,Somalia,0,0
+PRAB,Republic of Serbia,0,0
+PRAB,Suriname,0,0
+PRAB,Slovakia,0,0
+PRAB,Slovenia,4,0
+PRAB,Sweden,36,0
+PRAB,Swaziland,0,0
+PRAB,Syria,0,0
+PRAB,Chad,0,0
+PRAB,Togo,0,0
+PRAB,Thailand,0,0
+PRAB,Tajikistan,0,0
+PRAB,Turkmenistan,0,0
+PRAB,East Timor,0,0
+PRAB,Trinidad and Tobago,0,0
+PRAB,Tunisia,0,0
+PRAB,Turkey,0,0
+PRAB,Taiwan,4,0
+PRAB,United Republic of Tanzania,0,0
+PRAB,Uganda,0,0
+PRAB,Ukraine,10,0
+PRAB,Uruguay,0,0
+PRAB,USA,466,0
+PRAB,Uzbekistan,0,0
+PRAB,Venezuela,0,0
+PRAB,Vietnam,0,0
+PRAB,Vanuatu,0,0
+PRAB,West Bank,0,0
+PRAB,Yemen,0,0
+PRAB,South Africa,0,0
+PRAB,Zambia,0,0
+PRAB,Zimbabwe,0,0
+PRAPPLIED,Afghanistan,0,0
+PRAPPLIED,Angola,0,0
+PRAPPLIED,Albania,0,0
+PRAPPLIED,United Arab Emirates,3,0
+PRAPPLIED,Argentina,8,0
+PRAPPLIED,Armenia,0,0
+PRAPPLIED,Antarctica,0,0
+PRAPPLIED,French Southern and Antarctic Lands,0,0
+PRAPPLIED,Australia,143,0
+PRAPPLIED,Austria,40,0
+PRAPPLIED,Azerbaijan,0,0
+PRAPPLIED,Burundi,0,0
+PRAPPLIED,Belgium,38,0
+PRAPPLIED,Benin,1,0
+PRAPPLIED,Burkina Faso,0,0
+PRAPPLIED,Bangladesh,1,0
+PRAPPLIED,Bulgaria,2,0
+PRAPPLIED,The Bahamas,0,0
+PRAPPLIED,Bosnia and Herzegovina,0,0
+PRAPPLIED,Belarus,5,0
+PRAPPLIED,Belize,0,0
+PRAPPLIED,Bolivia,0,0
+PRAPPLIED,Brazil,34,0
+PRAPPLIED,Brunei,0,0
+PRAPPLIED,Bhutan,0,0
+PRAPPLIED,Botswana,0,0
+PRAPPLIED,Central African Republic,0,0
+PRAPPLIED,Canada,116,0
+PRAPPLIED,Switzerland,138,0
+PRAPPLIED,Chile,10,0
+PRAPPLIED,China,840,0
+PRAPPLIED,Ivory Coast,0,0
+PRAPPLIED,Cameroon,0,0
+PRAPPLIED,Democratic Republic of the Congo,0,0
+PRAPPLIED,Republic of the Congo,0,0
+PRAPPLIED,Colombia,3,0
+PRAPPLIED,Costa Rica,0,0
+PRAPPLIED,Cuba,0,0
+PRAPPLIED,Northern Cyprus,0,0
+PRAPPLIED,Cyprus,1,0
+PRAPPLIED,Czech Republic,33,0
+PRAPPLIED,Germany,452,0
+PRAPPLIED,Djibouti,0,0
+PRAPPLIED,Denmark,54,0
+PRAPPLIED,Dominican Republic,1,0
+PRAPPLIED,Algeria,1,0
+PRAPPLIED,Ecuador,0,0
+PRAPPLIED,Egypt,4,0
+PRAPPLIED,Eritrea,0,0
+PRAPPLIED,Spain,143,0
+PRAPPLIED,Estonia,0,0
+PRAPPLIED,Ethiopia,0,0
+PRAPPLIED,Finland,64,0
+PRAPPLIED,Fiji,0,0
+PRAPPLIED,Falkland Islands,0,0
+PRAPPLIED,France,317,0
+PRAPPLIED,Gabon,0,0
+PRAPPLIED,England,2,0
+PRAPPLIED,Georgia,26,0
+PRAPPLIED,Ghana,0,0
+PRAPPLIED,Guinea,0,0
+PRAPPLIED,Gambia,0,0
+PRAPPLIED,Guinea Bissau,0,0
+PRAPPLIED,Equatorial Guinea,0,0
+PRAPPLIED,Greece,11,0
+PRAPPLIED,Greenland,0,0
+PRAPPLIED,Guatemala,0,0
+PRAPPLIED,Guyana,0,0
+PRAPPLIED,Honduras,0,0
+PRAPPLIED,Croatia,5,0
+PRAPPLIED,Haiti,0,0
+PRAPPLIED,Hungary,18,0
+PRAPPLIED,Indonesia,0,0
+PRAPPLIED,India,145,0
+PRAPPLIED,Ireland,12,0
+PRAPPLIED,Iran,25,0
+PRAPPLIED,Iraq,0,0
+PRAPPLIED,Iceland,4,0
+PRAPPLIED,Israel,54,0
+PRAPPLIED,Italy,161,0
+PRAPPLIED,Jamaica,0,0
+PRAPPLIED,Jordan,0,0
+PRAPPLIED,Japan,323,0
+PRAPPLIED,Kazakhstan,3,0
+PRAPPLIED,Kenya,0,0
+PRAPPLIED,Kyrgyzstan,0,0
+PRAPPLIED,Cambodia,0,0
+PRAPPLIED,South Korea,19,0
+PRAPPLIED,Kosovo,0,0
+PRAPPLIED,Kuwait,0,0
+PRAPPLIED,Laos,0,0
+PRAPPLIED,Lebanon,0,0
+PRAPPLIED,Liberia,0,0
+PRAPPLIED,Libya,0,0
+PRAPPLIED,Sri Lanka,1,0
+PRAPPLIED,Lesotho,0,0
+PRAPPLIED,Lithuania,4,0
+PRAPPLIED,Luxembourg,9,0
+PRAPPLIED,Latvia,2,0
+PRAPPLIED,Morocco,3,0
+PRAPPLIED,Moldova,1,0
+PRAPPLIED,Madagascar,0,0
+PRAPPLIED,Mexico,59,0
+PRAPPLIED,Macedonia,0,0
+PRAPPLIED,Mali,7,0
+PRAPPLIED,Myanmar,0,0
+PRAPPLIED,Montenegro,1,0
+PRAPPLIED,Mongolia,0,0
+PRAPPLIED,Mozambique,0,0
+PRAPPLIED,Mauritania,0,0
+PRAPPLIED,Malawi,0,0
+PRAPPLIED,Malaysia,1,0
+PRAPPLIED,Namibia,0,0
+PRAPPLIED,New Caledonia,0,0
+PRAPPLIED,Niger,3,0
+PRAPPLIED,Nigeria,3,0
+PRAPPLIED,Nicaragua,0,0
+PRAPPLIED,Netherlands,107,0
+PRAPPLIED,Norway,13,0
+PRAPPLIED,Nepal,0,0
+PRAPPLIED,New Zealand,8,0
+PRAPPLIED,Oman,17,0
+PRAPPLIED,Pakistan,3,0
+PRAPPLIED,Panama,0,0
+PRAPPLIED,Peru,5,0
+PRAPPLIED,Philippines,1,0
+PRAPPLIED,Papua New Guinea,0,0
+PRAPPLIED,Poland,54,0
+PRAPPLIED,Puerto Rico,4,0
+PRAPPLIED,North Korea,0,0
+PRAPPLIED,Portugal,10,0
+PRAPPLIED,Paraguay,0,0
+PRAPPLIED,Qatar,1,0
+PRAPPLIED,Romania,13,0
+PRAPPLIED,Russia,162,0
+PRAPPLIED,Rwanda,0,0
+PRAPPLIED,Western Sahara,0,0
+PRAPPLIED,Saudi Arabia,17,0
+PRAPPLIED,Sudan,1,0
+PRAPPLIED,South Sudan,0,0
+PRAPPLIED,Senegal,0,0
+PRAPPLIED,Solomon Islands,0,0
+PRAPPLIED,Sierra Leone,0,0
+PRAPPLIED,El Salvador,0,0
+PRAPPLIED,Somaliland,0,0
+PRAPPLIED,Somalia,0,0
+PRAPPLIED,Republic of Serbia,0,0
+PRAPPLIED,Suriname,0,0
+PRAPPLIED,Slovakia,6,0
+PRAPPLIED,Slovenia,0,0
+PRAPPLIED,Sweden,65,0
+PRAPPLIED,Swaziland,0,0
+PRAPPLIED,Syria,0,0
+PRAPPLIED,Chad,0,0
+PRAPPLIED,Togo,0,0
+PRAPPLIED,Thailand,2,0
+PRAPPLIED,Tajikistan,1,0
+PRAPPLIED,Turkmenistan,0,0
+PRAPPLIED,East Timor,0,0
+PRAPPLIED,Trinidad and Tobago,0,0
+PRAPPLIED,Tunisia,1,0
+PRAPPLIED,Turkey,19,0
+PRAPPLIED,Taiwan,28,0
+PRAPPLIED,United Republic of Tanzania,0,0
+PRAPPLIED,Uganda,0,0
+PRAPPLIED,Ukraine,39,0
+PRAPPLIED,Uruguay,1,0
+PRAPPLIED,USA,1275,0
+PRAPPLIED,Uzbekistan,0,0
+PRAPPLIED,Venezuela,0,0
+PRAPPLIED,Vietnam,7,0
+PRAPPLIED,Vanuatu,0,0
+PRAPPLIED,West Bank,0,0
+PRAPPLIED,Yemen,0,0
+PRAPPLIED,South Africa,11,0
+PRAPPLIED,Zambia,0,0
+PRAPPLIED,Zimbabwe,0,0
+PRB,Afghanistan,0,0
+PRB,Angola,0,0
+PRB,Albania,2,0
+PRB,United Arab Emirates,20,0
+PRB,Argentina,1817,0
+PRB,Armenia,86,0
+PRB,Antarctica,0,0
+PRB,French Southern and Antarctic Lands,0,0
+PRB,Australia,2348,0
+PRB,Austria,2732,0
+PRB,Azerbaijan,40,0
+PRB,Burundi,3,0
+PRB,Belgium,2701,0
+PRB,Benin,4,0
+PRB,Burkina Faso,2,0
+PRB,Bangladesh,19,0
+PRB,Bulgaria,285,0
+PRB,The Bahamas,0,0
+PRB,Bosnia and Herzegovina,1,0
+PRB,Belarus,225,0
+PRB,Belize,0,0
+PRB,Bolivia,3,0
+PRB,Brazil,4147,0
+PRB,Brunei,0,0
+PRB,Bhutan,0,0
+PRB,Botswana,0,0
+PRB,Central African Republic,0,0
+PRB,Canada,8177,0
+PRB,Switzerland,7118,0
+PRB,Chile,458,0
+PRB,China,13661,0
+PRB,Ivory Coast,0,0
+PRB,Cameroon,7,0
+PRB,Democratic Republic of the Congo,0,0
+PRB,Republic of the Congo,0,0
+PRB,Colombia,184,0
+PRB,Costa Rica,6,0
+PRB,Cuba,126,0
+PRB,Northern Cyprus,0,0
+PRB,Cyprus,32,0
+PRB,Czech Republic,1493,0
+PRB,Germany,31808,0
+PRB,Djibouti,1,0
+PRB,Denmark,2488,0
+PRB,Dominican Republic,1,0
+PRB,Algeria,69,0
+PRB,Ecuador,56,0
+PRB,Egypt,88,0
+PRB,Eritrea,0,0
+PRB,Spain,7091,0
+PRB,Estonia,179,0
+PRB,Ethiopia,4,0
+PRB,Finland,1944,0
+PRB,Fiji,0,0
+PRB,Falkland Islands,0,0
+PRB,France,18570,0
+PRB,Gabon,1,0
+PRB,England,766,0
+PRB,Georgia,1113,0
+PRB,Ghana,1,0
+PRB,Guinea,0,0
+PRB,Gambia,0,0
+PRB,Guinea Bissau,0,0
+PRB,Equatorial Guinea,0,0
+PRB,Greece,1052,0
+PRB,Greenland,0,0
+PRB,Guatemala,0,0
+PRB,Guyana,1,0
+PRB,Honduras,0,0
+PRB,Croatia,385,0
+PRB,Haiti,0,0
+PRB,Hungary,1243,0
+PRB,Indonesia,74,0
+PRB,India,7533,0
+PRB,Ireland,714,0
+PRB,Iran,629,0
+PRB,Iraq,7,0
+PRB,Iceland,211,0
+PRB,Israel,3962,0
+PRB,Italy,9297,0
+PRB,Jamaica,8,0
+PRB,Jordan,36,0
+PRB,Japan,20716,0
+PRB,Kazakhstan,21,0
+PRB,Kenya,5,0
+PRB,Kyrgyzstan,2,0
+PRB,Cambodia,0,0
+PRB,South Korea,216,0
+PRB,Kosovo,0,0
+PRB,Kuwait,12,0
+PRB,Laos,0,0
+PRB,Lebanon,28,0
+PRB,Liberia,0,0
+PRB,Libya,3,0
+PRB,Sri Lanka,23,0
+PRB,Lesotho,1,0
+PRB,Lithuania,143,0
+PRB,Luxembourg,148,0
+PRB,Latvia,88,0
+PRB,Morocco,93,0
+PRB,Moldova,177,0
+PRB,Madagascar,0,0
+PRB,Mexico,4862,0
+PRB,Macedonia,4,0
+PRB,Mali,96,0
+PRB,Myanmar,0,0
+PRB,Montenegro,35,0
+PRB,Mongolia,23,0
+PRB,Mozambique,0,0
+PRB,Mauritania,0,0
+PRB,Malawi,0,0
+PRB,Malaysia,26,0
+PRB,Namibia,0,0
+PRB,New Caledonia,0,0
+PRB,Niger,25,0
+PRB,Nigeria,18,0
+PRB,Nicaragua,0,0
+PRB,Netherlands,5046,0
+PRB,Norway,893,0
+PRB,Nepal,9,0
+PRB,New Zealand,421,0
+PRB,Oman,800,0
+PRB,Pakistan,64,0
+PRB,Panama,2,0
+PRB,Peru,176,0
+PRB,Philippines,9,0
+PRB,Papua New Guinea,0,0
+PRB,Poland,3779,0
+PRB,Puerto Rico,112,0
+PRB,North Korea,0,0
+PRB,Portugal,783,0
+PRB,Paraguay,0,0
+PRB,Qatar,18,0
+PRB,Romania,413,0
+PRB,Russia,8440,0
+PRB,Rwanda,1,0
+PRB,Western Sahara,0,0
+PRB,Saudi Arabia,223,0
+PRB,Sudan,6,0
+PRB,South Sudan,0,0
+PRB,Senegal,5,0
+PRB,Solomon Islands,0,0
+PRB,Sierra Leone,0,0
+PRB,El Salvador,0,0
+PRB,Somaliland,0,0
+PRB,Somalia,0,0
+PRB,Republic of Serbia,2,0
+PRB,Suriname,0,0
+PRB,Slovakia,436,0
+PRB,Slovenia,642,0
+PRB,Sweden,5122,0
+PRB,Swaziland,0,0
+PRB,Syria,3,0
+PRB,Chad,0,0
+PRB,Togo,5,0
+PRB,Thailand,121,0
+PRB,Tajikistan,7,0
+PRB,Turkmenistan,0,0
+PRB,East Timor,0,0
+PRB,Trinidad and Tobago,0,0
+PRB,Tunisia,66,0
+PRB,Turkey,615,0
+PRB,Taiwan,2360,0
+PRB,United Republic of Tanzania,0,0
+PRB,Uganda,0,0
+PRB,Ukraine,2035,0
+PRB,Uruguay,12,0
+PRB,USA,34976,0
+PRB,Uzbekistan,30,0
+PRB,Venezuela,217,0
+PRB,Vietnam,160,0
+PRB,Vanuatu,0,0
+PRB,West Bank,17,0
+PRB,Yemen,1,0
+PRB,South Africa,375,0
+PRB,Zambia,1,0
+PRB,Zimbabwe,2,0
+PRC,Afghanistan,0,0
+PRC,Angola,1,0
+PRC,Albania,0,0
+PRC,United Arab Emirates,10,0
+PRC,Argentina,455,0
+PRC,Armenia,68,0
+PRC,Antarctica,0,0
+PRC,French Southern and Antarctic Lands,0,0
+PRC,Australia,807,0
+PRC,Austria,230,0
+PRC,Azerbaijan,9,0
+PRC,Burundi,0,0
+PRC,Belgium,1161,0
+PRC,Benin,0,0
+PRC,Burkina Faso,1,0
+PRC,Bangladesh,24,0
+PRC,Bulgaria,282,0
+PRC,The Bahamas,0,0
+PRC,Bosnia and Herzegovina,11,0
+PRC,Belarus,24,0
+PRC,Belize,0,0
+PRC,Bolivia,0,0
+PRC,Brazil,1036,0
+PRC,Brunei,0,0
+PRC,Bhutan,0,0
+PRC,Botswana,6,0
+PRC,Central African Republic,0,0
+PRC,Canada,2000,0
+PRC,Switzerland,639,0
+PRC,Chile,77,0
+PRC,China,3173,0
+PRC,Ivory Coast,0,0
+PRC,Cameroon,1,0
+PRC,Democratic Republic of the Congo,0,0
+PRC,Republic of the Congo,0,0
+PRC,Colombia,43,0
+PRC,Costa Rica,12,0
+PRC,Cuba,28,0
+PRC,Northern Cyprus,0,0
+PRC,Cyprus,2,0
+PRC,Czech Republic,295,0
+PRC,Germany,5614,0
+PRC,Djibouti,0,0
+PRC,Denmark,430,0
+PRC,Dominican Republic,0,0
+PRC,Algeria,56,0
+PRC,Ecuador,1,0
+PRC,Egypt,140,0
+PRC,Eritrea,0,0
+PRC,Spain,1295,0
+PRC,Estonia,0,0
+PRC,Ethiopia,9,0
+PRC,Finland,518,0
+PRC,Fiji,0,0
+PRC,Falkland Islands,0,0
+PRC,France,3309,0
+PRC,Gabon,0,0
+PRC,England,138,0
+PRC,Georgia,297,0
+PRC,Ghana,1,0
+PRC,Guinea,0,0
+PRC,Gambia,0,0
+PRC,Guinea Bissau,0,0
+PRC,Equatorial Guinea,0,0
+PRC,Greece,272,0
+PRC,Greenland,0,0
+PRC,Guatemala,1,0
+PRC,Guyana,0,0
+PRC,Honduras,1,0
+PRC,Croatia,294,0
+PRC,Haiti,0,0
+PRC,Hungary,470,0
+PRC,Indonesia,49,0
+PRC,India,3986,0
+PRC,Ireland,1,0
+PRC,Iran,175,0
+PRC,Iraq,20,0
+PRC,Iceland,1,0
+PRC,Israel,590,0
+PRC,Italy,2376,0
+PRC,Jamaica,2,0
+PRC,Jordan,32,0
+PRC,Japan,3495,0
+PRC,Kazakhstan,26,0
+PRC,Kenya,0,0
+PRC,Kyrgyzstan,0,0
+PRC,Cambodia,0,0
+PRC,South Korea,16,0
+PRC,Kosovo,0,0
+PRC,Kuwait,39,0
+PRC,Laos,0,0
+PRC,Lebanon,10,0
+PRC,Liberia,0,0
+PRC,Libya,9,0
+PRC,Sri Lanka,1,0
+PRC,Lesotho,0,0
+PRC,Lithuania,31,0
+PRC,Luxembourg,0,0
+PRC,Latvia,28,0
+PRC,Morocco,11,0
+PRC,Moldova,11,0
+PRC,Madagascar,0,0
+PRC,Mexico,2091,0
+PRC,Macedonia,2,0
+PRC,Mali,1,0
+PRC,Myanmar,7,0
+PRC,Montenegro,7,0
+PRC,Mongolia,30,0
+PRC,Mozambique,0,0
+PRC,Mauritania,0,0
+PRC,Malawi,0,0
+PRC,Malaysia,24,0
+PRC,Namibia,0,0
+PRC,New Caledonia,0,0
+PRC,Niger,14,0
+PRC,Nigeria,14,0
+PRC,Nicaragua,0,0
+PRC,Netherlands,635,0
+PRC,Norway,295,0
+PRC,Nepal,1,0
+PRC,New Zealand,32,0
+PRC,Oman,701,0
+PRC,Pakistan,43,0
+PRC,Panama,1,0
+PRC,Peru,62,0
+PRC,Philippines,1,0
+PRC,Papua New Guinea,0,0
+PRC,Poland,1379,0
+PRC,Puerto Rico,7,0
+PRC,North Korea,0,0
+PRC,Portugal,361,0
+PRC,Paraguay,0,0
+PRC,Qatar,0,0
+PRC,Romania,689,0
+PRC,Russia,1745,0
+PRC,Rwanda,0,0
+PRC,Western Sahara,0,0
+PRC,Saudi Arabia,82,0
+PRC,Sudan,0,0
+PRC,South Sudan,0,0
+PRC,Senegal,1,0
+PRC,Solomon Islands,0,0
+PRC,Sierra Leone,0,0
+PRC,El Salvador,0,0
+PRC,Somaliland,0,0
+PRC,Somalia,0,0
+PRC,Republic of Serbia,0,0
+PRC,Suriname,0,0
+PRC,Slovakia,154,0
+PRC,Slovenia,14,0
+PRC,Sweden,764,0
+PRC,Swaziland,0,0
+PRC,Syria,2,0
+PRC,Chad,2,0
+PRC,Togo,0,0
+PRC,Thailand,30,0
+PRC,Tajikistan,0,0
+PRC,Turkmenistan,0,0
+PRC,East Timor,0,0
+PRC,Trinidad and Tobago,0,0
+PRC,Tunisia,23,0
+PRC,Turkey,214,0
+PRC,Taiwan,166,0
+PRC,United Republic of Tanzania,0,0
+PRC,Uganda,0,0
+PRC,Ukraine,368,0
+PRC,Uruguay,29,0
+PRC,USA,6273,0
+PRC,Uzbekistan,98,0
+PRC,Venezuela,11,0
+PRC,Vietnam,94,0
+PRC,Vanuatu,0,0
+PRC,West Bank,7,0
+PRC,Yemen,6,0
+PRC,South Africa,497,0
+PRC,Zambia,0,0
+PRC,Zimbabwe,0,0
+PRD,Afghanistan,1,0
+PRD,Angola,0,0
+PRD,Albania,2,0
+PRD,United Arab Emirates,38,0
+PRD,Argentina,890,0
+PRD,Armenia,143,0
+PRD,Antarctica,0,0
+PRD,French Southern and Antarctic Lands,0,0
+PRD,Australia,1270,0
+PRD,Austria,718,0
+PRD,Azerbaijan,56,0
+PRD,Burundi,0,0
+PRD,Belgium,924,0
+PRD,Benin,14,0
+PRD,Burkina Faso,0,0
+PRD,Bangladesh,13,0
+PRD,Bulgaria,156,0
+PRD,The Bahamas,6,0
+PRD,Bosnia and Herzegovina,8,0
+PRD,Belarus,96,0
+PRD,Belize,0,0
+PRD,Bolivia,5,0
+PRD,Brazil,3241,0
+PRD,Brunei,0,0
+PRD,Bhutan,0,0
+PRD,Botswana,0,0
+PRD,Central African Republic,0,0
+PRD,Canada,4969,0
+PRD,Switzerland,2730,0
+PRD,Chile,1150,0
+PRD,China,6689,0
+PRD,Ivory Coast,0,0
+PRD,Cameroon,0,0
+PRD,Democratic Republic of the Congo,0,0
+PRD,Republic of the Congo,0,0
+PRD,Colombia,248,0
+PRD,Costa Rica,21,0
+PRD,Cuba,29,0
+PRD,Northern Cyprus,8,0
+PRD,Cyprus,194,0
+PRD,Czech Republic,488,0
+PRD,Germany,9429,0
+PRD,Djibouti,0,0
+PRD,Denmark,885,0
+PRD,Dominican Republic,1,0
+PRD,Algeria,68,0
+PRD,Ecuador,20,0
+PRD,Egypt,172,0
+PRD,Eritrea,0,0
+PRD,Spain,3891,0
+PRD,Estonia,156,0
+PRD,Ethiopia,4,0
+PRD,Finland,549,0
+PRD,Fiji,0,0
+PRD,Falkland Islands,0,0
+PRD,France,4602,0
+PRD,Gabon,0,0
+PRD,England,947,0
+PRD,Georgia,298,0
+PRD,Ghana,3,0
+PRD,Guinea,1,0
+PRD,Gambia,0,0
+PRD,Guinea Bissau,0,0
+PRD,Equatorial Guinea,0,0
+PRD,Greece,885,0
+PRD,Greenland,0,0
+PRD,Guatemala,5,0
+PRD,Guyana,0,0
+PRD,Honduras,1,0
+PRD,Croatia,236,0
+PRD,Haiti,0,0
+PRD,Hungary,332,0
+PRD,Indonesia,42,0
+PRD,India,5570,0
+PRD,Ireland,432,0
+PRD,Iran,917,0
+PRD,Iraq,5,0
+PRD,Iceland,27,0
+PRD,Israel,1482,0
+PRD,Italy,5712,0
+PRD,Jamaica,9,0
+PRD,Jordan,14,0
+PRD,Japan,7097,0
+PRD,Kazakhstan,91,0
+PRD,Kenya,4,0
+PRD,Kyrgyzstan,13,0
+PRD,Cambodia,0,0
+PRD,South Korea,97,0
+PRD,Kosovo,0,0
+PRD,Kuwait,11,0
+PRD,Laos,0,0
+PRD,Lebanon,55,0
+PRD,Liberia,0,0
+PRD,Libya,1,0
+PRD,Sri Lanka,8,0
+PRD,Lesotho,0,0
+PRD,Lithuania,3,0
+PRD,Luxembourg,2,0
+PRD,Latvia,0,0
+PRD,Morocco,57,0
+PRD,Moldova,1,0
+PRD,Madagascar,2,0
+PRD,Mexico,1705,0
+PRD,Macedonia,21,0
+PRD,Mali,4,0
+PRD,Myanmar,0,0
+PRD,Montenegro,3,0
+PRD,Mongolia,6,0
+PRD,Mozambique,0,0
+PRD,Mauritania,0,0
+PRD,Malawi,0,0
+PRD,Malaysia,43,0
+PRD,Namibia,0,0
+PRD,New Caledonia,0,0
+PRD,Niger,7,0
+PRD,Nigeria,7,0
+PRD,Nicaragua,0,0
+PRD,Netherlands,984,0
+PRD,Norway,360,0
+PRD,Nepal,3,0
+PRD,New Zealand,158,0
+PRD,Oman,279,0
+PRD,Pakistan,177,0
+PRD,Panama,2,0
+PRD,Peru,96,0
+PRD,Philippines,20,0
+PRD,Papua New Guinea,1,0
+PRD,Poland,1611,0
+PRD,Puerto Rico,56,0
+PRD,North Korea,0,0
+PRD,Portugal,1453,0
+PRD,Paraguay,2,0
+PRD,Qatar,9,0
+PRD,Romania,170,0
+PRD,Russia,3488,0
+PRD,Rwanda,0,0
+PRD,Western Sahara,0,0
+PRD,Saudi Arabia,92,0
+PRD,Sudan,12,0
+PRD,South Sudan,0,0
+PRD,Senegal,0,0
+PRD,Solomon Islands,0,0
+PRD,Sierra Leone,0,0
+PRD,El Salvador,0,0
+PRD,Somaliland,0,0
+PRD,Somalia,0,0
+PRD,Republic of Serbia,0,0
+PRD,Suriname,0,0
+PRD,Slovakia,119,0
+PRD,Slovenia,188,0
+PRD,Sweden,752,0
+PRD,Swaziland,0,0
+PRD,Syria,12,0
+PRD,Chad,1,0
+PRD,Togo,0,0
+PRD,Thailand,94,0
+PRD,Tajikistan,0,0
+PRD,Turkmenistan,0,0
+PRD,East Timor,0,0
+PRD,Trinidad and Tobago,0,0
+PRD,Tunisia,0,0
+PRD,Turkey,672,0
+PRD,Taiwan,1448,0
+PRD,United Republic of Tanzania,0,0
+PRD,Uganda,0,0
+PRD,Ukraine,313,0
+PRD,Uruguay,61,0
+PRD,USA,17468,0
+PRD,Uzbekistan,70,0
+PRD,Venezuela,169,0
+PRD,Vietnam,80,0
+PRD,Vanuatu,0,0
+PRD,West Bank,1,0
+PRD,Yemen,2,0
+PRD,South Africa,549,0
+PRD,Zambia,0,0
+PRD,Zimbabwe,0,0
+PRE,Afghanistan,0,0
+PRE,Angola,0,0
+PRE,Albania,0,0
+PRE,United Arab Emirates,29,0
+PRE,Argentina,1006,0
+PRE,Armenia,134,0
+PRE,Antarctica,0,0
+PRE,French Southern and Antarctic Lands,0,0
+PRE,Australia,1292,0
+PRE,Austria,314,0
+PRE,Azerbaijan,4,0
+PRE,Burundi,0,0
+PRE,Belgium,1004,0
+PRE,Benin,3,0
+PRE,Burkina Faso,1,0
+PRE,Bangladesh,37,0
+PRE,Bulgaria,142,0
+PRE,The Bahamas,0,0
+PRE,Bosnia and Herzegovina,4,0
+PRE,Belarus,83,0
+PRE,Belize,0,0
+PRE,Bolivia,6,0
+PRE,Brazil,2359,0
+PRE,Brunei,1,0
+PRE,Bhutan,0,0
+PRE,Botswana,2,0
+PRE,Central African Republic,0,0
+PRE,Canada,1767,0
+PRE,Switzerland,1012,0
+PRE,Chile,344,0
+PRE,China,4794,0
+PRE,Ivory Coast,0,0
+PRE,Cameroon,87,0
+PRE,Democratic Republic of the Congo,0,0
+PRE,Republic of the Congo,0,0
+PRE,Colombia,86,0
+PRE,Costa Rica,0,0
+PRE,Cuba,34,0
+PRE,Northern Cyprus,0,0
+PRE,Cyprus,27,0
+PRE,Czech Republic,287,0
+PRE,Germany,8441,0
+PRE,Djibouti,0,0
+PRE,Denmark,619,0
+PRE,Dominican Republic,1,0
+PRE,Algeria,47,0
+PRE,Ecuador,41,0
+PRE,Egypt,46,0
+PRE,Eritrea,0,0
+PRE,Spain,3237,0
+PRE,Estonia,43,0
+PRE,Ethiopia,3,0
+PRE,Finland,453,0
+PRE,Fiji,0,0
+PRE,Falkland Islands,0,0
+PRE,France,6306,0
+PRE,Gabon,2,0
+PRE,England,220,0
+PRE,Georgia,481,0
+PRE,Ghana,1,0
+PRE,Guinea,1,0
+PRE,Gambia,0,0
+PRE,Guinea Bissau,0,0
+PRE,Equatorial Guinea,0,0
+PRE,Greece,425,0
+PRE,Greenland,0,0
+PRE,Guatemala,0,0
+PRE,Guyana,0,0
+PRE,Honduras,0,0
+PRE,Croatia,81,0
+PRE,Haiti,0,0
+PRE,Hungary,670,0
+PRE,Indonesia,13,0
+PRE,India,3143,0
+PRE,Ireland,279,0
+PRE,Iran,494,0
+PRE,Iraq,5,0
+PRE,Iceland,7,0
+PRE,Israel,2409,0
+PRE,Italy,4052,0
+PRE,Jamaica,0,0
+PRE,Jordan,11,0
+PRE,Japan,4172,0
+PRE,Kazakhstan,46,0
+PRE,Kenya,1,0
+PRE,Kyrgyzstan,1,0
+PRE,Cambodia,0,0
+PRE,South Korea,126,0
+PRE,Kosovo,0,0
+PRE,Kuwait,6,0
+PRE,Laos,0,0
+PRE,Lebanon,20,0
+PRE,Liberia,0,0
+PRE,Libya,1,0
+PRE,Sri Lanka,11,0
+PRE,Lesotho,0,0
+PRE,Lithuania,69,0
+PRE,Luxembourg,45,0
+PRE,Latvia,62,0
+PRE,Morocco,40,0
+PRE,Moldova,2,0
+PRE,Madagascar,1,0
+PRE,Mexico,1967,0
+PRE,Macedonia,42,0
+PRE,Mali,25,0
+PRE,Myanmar,0,0
+PRE,Montenegro,11,0
+PRE,Mongolia,9,0
+PRE,Mozambique,0,0
+PRE,Mauritania,0,0
+PRE,Malawi,0,0
+PRE,Malaysia,23,0
+PRE,Namibia,0,0
+PRE,New Caledonia,0,0
+PRE,Niger,10,0
+PRE,Nigeria,10,0
+PRE,Nicaragua,0,0
+PRE,Netherlands,1520,0
+PRE,Norway,357,0
+PRE,Nepal,0,0
+PRE,New Zealand,155,0
+PRE,Oman,240,0
+PRE,Pakistan,34,0
+PRE,Panama,3,0
+PRE,Peru,95,0
+PRE,Philippines,22,0
+PRE,Papua New Guinea,0,0
+PRE,Poland,1242,0
+PRE,Puerto Rico,34,0
+PRE,North Korea,0,0
+PRE,Portugal,426,0
+PRE,Paraguay,0,0
+PRE,Qatar,33,0
+PRE,Romania,205,0
+PRE,Russia,2754,0
+PRE,Rwanda,0,0
+PRE,Western Sahara,0,0
+PRE,Saudi Arabia,52,0
+PRE,Sudan,0,0
+PRE,South Sudan,0,0
+PRE,Senegal,0,0
+PRE,Solomon Islands,0,0
+PRE,Sierra Leone,0,0
+PRE,El Salvador,0,0
+PRE,Somaliland,0,0
+PRE,Somalia,0,0
+PRE,Republic of Serbia,2,0
+PRE,Suriname,0,0
+PRE,Slovakia,124,0
+PRE,Slovenia,457,0
+PRE,Sweden,824,0
+PRE,Swaziland,2,0
+PRE,Syria,0,0
+PRE,Chad,13,0
+PRE,Togo,1,0
+PRE,Thailand,52,0
+PRE,Tajikistan,0,0
+PRE,Turkmenistan,0,0
+PRE,East Timor,0,0
+PRE,Trinidad and Tobago,0,0
+PRE,Tunisia,22,0
+PRE,Turkey,225,0
+PRE,Taiwan,689,0
+PRE,United Republic of Tanzania,0,0
+PRE,Uganda,0,0
+PRE,Ukraine,647,0
+PRE,Uruguay,53,0
+PRE,USA,11996,0
+PRE,Uzbekistan,53,0
+PRE,Venezuela,92,0
+PRE,Vietnam,46,0
+PRE,Vanuatu,0,0
+PRE,West Bank,1,0
+PRE,Yemen,0,0
+PRE,South Africa,120,0
+PRE,Zambia,1,0
+PRE,Zimbabwe,0,0
+PRFLUIDS,Afghanistan,0,0
+PRFLUIDS,Angola,0,0
+PRFLUIDS,Albania,0,0
+PRFLUIDS,United Arab Emirates,0,0
+PRFLUIDS,Argentina,16,0
+PRFLUIDS,Armenia,1,0
+PRFLUIDS,Antarctica,0,0
+PRFLUIDS,French Southern and Antarctic Lands,0,0
+PRFLUIDS,Australia,93,0
+PRFLUIDS,Austria,21,0
+PRFLUIDS,Azerbaijan,0,0
+PRFLUIDS,Burundi,0,0
+PRFLUIDS,Belgium,33,0
+PRFLUIDS,Benin,0,0
+PRFLUIDS,Burkina Faso,0,0
+PRFLUIDS,Bangladesh,0,0
+PRFLUIDS,Bulgaria,0,0
+PRFLUIDS,The Bahamas,0,0
+PRFLUIDS,Bosnia and Herzegovina,0,0
+PRFLUIDS,Belarus,0,0
+PRFLUIDS,Belize,0,0
+PRFLUIDS,Bolivia,0,0
+PRFLUIDS,Brazil,37,0
+PRFLUIDS,Brunei,0,0
+PRFLUIDS,Bhutan,0,0
+PRFLUIDS,Botswana,0,0
+PRFLUIDS,Central African Republic,0,0
+PRFLUIDS,Canada,97,0
+PRFLUIDS,Switzerland,73,0
+PRFLUIDS,Chile,6,0
+PRFLUIDS,China,172,0
+PRFLUIDS,Ivory Coast,0,0
+PRFLUIDS,Cameroon,0,0
+PRFLUIDS,Democratic Republic of the Congo,0,0
+PRFLUIDS,Republic of the Congo,0,0
+PRFLUIDS,Colombia,2,0
+PRFLUIDS,Costa Rica,0,0
+PRFLUIDS,Cuba,1,0
+PRFLUIDS,Northern Cyprus,0,0
+PRFLUIDS,Cyprus,1,0
+PRFLUIDS,Czech Republic,3,0
+PRFLUIDS,Germany,200,0
+PRFLUIDS,Djibouti,0,0
+PRFLUIDS,Denmark,14,0
+PRFLUIDS,Dominican Republic,0,0
+PRFLUIDS,Algeria,2,0
+PRFLUIDS,Ecuador,1,0
+PRFLUIDS,Egypt,4,0
+PRFLUIDS,Eritrea,0,0
+PRFLUIDS,Spain,53,0
+PRFLUIDS,Estonia,1,0
+PRFLUIDS,Ethiopia,0,0
+PRFLUIDS,Finland,8,0
+PRFLUIDS,Fiji,0,0
+PRFLUIDS,Falkland Islands,0,0
+PRFLUIDS,France,453,0
+PRFLUIDS,Gabon,0,0
+PRFLUIDS,England,5,0
+PRFLUIDS,Georgia,24,0
+PRFLUIDS,Ghana,0,0
+PRFLUIDS,Guinea,0,0
+PRFLUIDS,Gambia,0,0
+PRFLUIDS,Guinea Bissau,0,0
+PRFLUIDS,Equatorial Guinea,0,0
+PRFLUIDS,Greece,15,0
+PRFLUIDS,Greenland,0,0
+PRFLUIDS,Guatemala,0,0
+PRFLUIDS,Guyana,0,0
+PRFLUIDS,Honduras,0,0
+PRFLUIDS,Croatia,0,0
+PRFLUIDS,Haiti,0,0
+PRFLUIDS,Hungary,4,0
+PRFLUIDS,Indonesia,0,0
+PRFLUIDS,India,126,0
+PRFLUIDS,Ireland,6,0
+PRFLUIDS,Iran,4,0
+PRFLUIDS,Iraq,2,0
+PRFLUIDS,Iceland,1,0
+PRFLUIDS,Israel,69,0
+PRFLUIDS,Italy,98,0
+PRFLUIDS,Jamaica,0,0
+PRFLUIDS,Jordan,0,0
+PRFLUIDS,Japan,129,0
+PRFLUIDS,Kazakhstan,1,0
+PRFLUIDS,Kenya,0,0
+PRFLUIDS,Kyrgyzstan,0,0
+PRFLUIDS,Cambodia,0,0
+PRFLUIDS,South Korea,8,0
+PRFLUIDS,Kosovo,0,0
+PRFLUIDS,Kuwait,0,0
+PRFLUIDS,Laos,0,0
+PRFLUIDS,Lebanon,1,0
+PRFLUIDS,Liberia,0,0
+PRFLUIDS,Libya,0,0
+PRFLUIDS,Sri Lanka,0,0
+PRFLUIDS,Lesotho,0,0
+PRFLUIDS,Lithuania,0,0
+PRFLUIDS,Luxembourg,0,0
+PRFLUIDS,Latvia,3,0
+PRFLUIDS,Morocco,9,0
+PRFLUIDS,Moldova,0,0
+PRFLUIDS,Madagascar,0,0
+PRFLUIDS,Mexico,36,0
+PRFLUIDS,Macedonia,0,0
+PRFLUIDS,Mali,0,0
+PRFLUIDS,Myanmar,0,0
+PRFLUIDS,Montenegro,0,0
+PRFLUIDS,Mongolia,0,0
+PRFLUIDS,Mozambique,0,0
+PRFLUIDS,Mauritania,0,0
+PRFLUIDS,Malawi,0,0
+PRFLUIDS,Malaysia,2,0
+PRFLUIDS,Namibia,0,0
+PRFLUIDS,New Caledonia,0,0
+PRFLUIDS,Niger,1,0
+PRFLUIDS,Nigeria,1,0
+PRFLUIDS,Nicaragua,0,0
+PRFLUIDS,Netherlands,93,0
+PRFLUIDS,Norway,16,0
+PRFLUIDS,Nepal,1,0
+PRFLUIDS,New Zealand,6,0
+PRFLUIDS,Oman,2,0
+PRFLUIDS,Pakistan,1,0
+PRFLUIDS,Panama,1,0
+PRFLUIDS,Peru,1,0
+PRFLUIDS,Philippines,0,0
+PRFLUIDS,Papua New Guinea,0,0
+PRFLUIDS,Poland,3,0
+PRFLUIDS,Puerto Rico,0,0
+PRFLUIDS,North Korea,0,0
+PRFLUIDS,Portugal,6,0
+PRFLUIDS,Paraguay,0,0
+PRFLUIDS,Qatar,2,0
+PRFLUIDS,Romania,1,0
+PRFLUIDS,Russia,35,0
+PRFLUIDS,Rwanda,0,0
+PRFLUIDS,Western Sahara,0,0
+PRFLUIDS,Saudi Arabia,16,0
+PRFLUIDS,Sudan,0,0
+PRFLUIDS,South Sudan,0,0
+PRFLUIDS,Senegal,0,0
+PRFLUIDS,Solomon Islands,0,0
+PRFLUIDS,Sierra Leone,0,0
+PRFLUIDS,El Salvador,0,0
+PRFLUIDS,Somaliland,0,0
+PRFLUIDS,Somalia,0,0
+PRFLUIDS,Republic of Serbia,0,0
+PRFLUIDS,Suriname,0,0
+PRFLUIDS,Slovakia,0,0
+PRFLUIDS,Slovenia,4,0
+PRFLUIDS,Sweden,68,0
+PRFLUIDS,Swaziland,0,0
+PRFLUIDS,Syria,0,0
+PRFLUIDS,Chad,0,0
+PRFLUIDS,Togo,0,0
+PRFLUIDS,Thailand,3,0
+PRFLUIDS,Tajikistan,0,0
+PRFLUIDS,Turkmenistan,0,0
+PRFLUIDS,East Timor,0,0
+PRFLUIDS,Trinidad and Tobago,0,0
+PRFLUIDS,Tunisia,2,0
+PRFLUIDS,Turkey,8,0
+PRFLUIDS,Taiwan,12,0
+PRFLUIDS,United Republic of Tanzania,0,0
+PRFLUIDS,Uganda,0,0
+PRFLUIDS,Ukraine,2,0
+PRFLUIDS,Uruguay,2,0
+PRFLUIDS,USA,1047,0
+PRFLUIDS,Uzbekistan,0,0
+PRFLUIDS,Venezuela,1,0
+PRFLUIDS,Vietnam,0,0
+PRFLUIDS,Vanuatu,0,0
+PRFLUIDS,West Bank,0,0
+PRFLUIDS,Yemen,0,0
+PRFLUIDS,South Africa,0,0
+PRFLUIDS,Zambia,0,0
+PRFLUIDS,Zimbabwe,0,0
+PRI,Afghanistan,0,0
+PRI,Angola,0,0
+PRI,Albania,0,0
+PRI,United Arab Emirates,0,0
+PRI,Argentina,0,0
+PRI,Armenia,0,0
+PRI,Antarctica,0,0
+PRI,French Southern and Antarctic Lands,0,0
+PRI,Australia,0,0
+PRI,Austria,0,0
+PRI,Azerbaijan,0,0
+PRI,Burundi,0,0
+PRI,Belgium,0,0
+PRI,Benin,0,0
+PRI,Burkina Faso,0,0
+PRI,Bangladesh,0,0
+PRI,Bulgaria,0,0
+PRI,The Bahamas,0,0
+PRI,Bosnia and Herzegovina,0,0
+PRI,Belarus,0,0
+PRI,Belize,0,0
+PRI,Bolivia,0,0
+PRI,Brazil,0,0
+PRI,Brunei,0,0
+PRI,Bhutan,0,0
+PRI,Botswana,0,0
+PRI,Central African Republic,0,0
+PRI,Canada,1,0
+PRI,Switzerland,0,0
+PRI,Chile,0,0
+PRI,China,0,0
+PRI,Ivory Coast,0,0
+PRI,Cameroon,0,0
+PRI,Democratic Republic of the Congo,0,0
+PRI,Republic of the Congo,0,0
+PRI,Colombia,0,0
+PRI,Costa Rica,0,0
+PRI,Cuba,0,0
+PRI,Northern Cyprus,0,0
+PRI,Cyprus,0,0
+PRI,Czech Republic,0,0
+PRI,Germany,0,0
+PRI,Djibouti,0,0
+PRI,Denmark,0,0
+PRI,Dominican Republic,0,0
+PRI,Algeria,0,0
+PRI,Ecuador,0,0
+PRI,Egypt,0,0
+PRI,Eritrea,0,0
+PRI,Spain,0,0
+PRI,Estonia,0,0
+PRI,Ethiopia,0,0
+PRI,Finland,0,0
+PRI,Fiji,0,0
+PRI,Falkland Islands,0,0
+PRI,France,0,0
+PRI,Gabon,0,0
+PRI,England,0,0
+PRI,Georgia,1,0
+PRI,Ghana,0,0
+PRI,Guinea,0,0
+PRI,Gambia,0,0
+PRI,Guinea Bissau,0,0
+PRI,Equatorial Guinea,0,0
+PRI,Greece,0,0
+PRI,Greenland,0,0
+PRI,Guatemala,0,0
+PRI,Guyana,0,0
+PRI,Honduras,0,0
+PRI,Croatia,0,0
+PRI,Haiti,0,0
+PRI,Hungary,0,0
+PRI,Indonesia,0,0
+PRI,India,4,0
+PRI,Ireland,0,0
+PRI,Iran,0,0
+PRI,Iraq,0,0
+PRI,Iceland,0,0
+PRI,Israel,0,0
+PRI,Italy,0,0
+PRI,Jamaica,1,0
+PRI,Jordan,0,0
+PRI,Japan,2,0
+PRI,Kazakhstan,0,0
+PRI,Kenya,0,0
+PRI,Kyrgyzstan,0,0
+PRI,Cambodia,0,0
+PRI,South Korea,0,0
+PRI,Kosovo,0,0
+PRI,Kuwait,0,0
+PRI,Laos,0,0
+PRI,Lebanon,0,0
+PRI,Liberia,0,0
+PRI,Libya,0,0
+PRI,Sri Lanka,0,0
+PRI,Lesotho,0,0
+PRI,Lithuania,0,0
+PRI,Luxembourg,0,0
+PRI,Latvia,0,0
+PRI,Morocco,0,0
+PRI,Moldova,0,0
+PRI,Madagascar,0,0
+PRI,Mexico,0,0
+PRI,Macedonia,0,0
+PRI,Mali,0,0
+PRI,Myanmar,0,0
+PRI,Montenegro,0,0
+PRI,Mongolia,0,0
+PRI,Mozambique,0,0
+PRI,Mauritania,0,0
+PRI,Malawi,0,0
+PRI,Malaysia,0,0
+PRI,Namibia,0,0
+PRI,New Caledonia,0,0
+PRI,Niger,0,0
+PRI,Nigeria,0,0
+PRI,Nicaragua,0,0
+PRI,Netherlands,0,0
+PRI,Norway,0,0
+PRI,Nepal,0,0
+PRI,New Zealand,0,0
+PRI,Oman,0,0
+PRI,Pakistan,0,0
+PRI,Panama,0,0
+PRI,Peru,0,0
+PRI,Philippines,0,0
+PRI,Papua New Guinea,0,0
+PRI,Poland,0,0
+PRI,Puerto Rico,0,0
+PRI,North Korea,0,0
+PRI,Portugal,0,0
+PRI,Paraguay,0,0
+PRI,Qatar,0,0
+PRI,Romania,0,0
+PRI,Russia,0,0
+PRI,Rwanda,0,0
+PRI,Western Sahara,0,0
+PRI,Saudi Arabia,0,0
+PRI,Sudan,0,0
+PRI,South Sudan,0,0
+PRI,Senegal,0,0
+PRI,Solomon Islands,0,0
+PRI,Sierra Leone,0,0
+PRI,El Salvador,0,0
+PRI,Somaliland,0,0
+PRI,Somalia,0,0
+PRI,Republic of Serbia,0,0
+PRI,Suriname,0,0
+PRI,Slovakia,0,0
+PRI,Slovenia,0,0
+PRI,Sweden,0,0
+PRI,Swaziland,0,0
+PRI,Syria,0,0
+PRI,Chad,0,0
+PRI,Togo,0,0
+PRI,Thailand,0,0
+PRI,Tajikistan,0,0
+PRI,Turkmenistan,0,0
+PRI,East Timor,0,0
+PRI,Trinidad and Tobago,0,0
+PRI,Tunisia,0,0
+PRI,Turkey,0,0
+PRI,Taiwan,0,0
+PRI,United Republic of Tanzania,0,0
+PRI,Uganda,0,0
+PRI,Ukraine,0,0
+PRI,Uruguay,0,0
+PRI,USA,0,0
+PRI,Uzbekistan,0,0
+PRI,Venezuela,0,0
+PRI,Vietnam,0,0
+PRI,Vanuatu,0,0
+PRI,West Bank,0,0
+PRI,Yemen,0,0
+PRI,South Africa,0,0
+PRI,Zambia,0,0
+PRI,Zimbabwe,0,0
+PRL,Afghanistan,0,0
+PRL,Angola,0,0
+PRL,Albania,0,0
+PRL,United Arab Emirates,13,0
+PRL,Argentina,575,0
+PRL,Armenia,72,0
+PRL,Antarctica,0,0
+PRL,French Southern and Antarctic Lands,0,0
+PRL,Australia,1964,0
+PRL,Austria,1693,0
+PRL,Azerbaijan,4,0
+PRL,Burundi,0,0
+PRL,Belgium,1349,0
+PRL,Benin,4,0
+PRL,Burkina Faso,0,0
+PRL,Bangladesh,1,0
+PRL,Bulgaria,102,0
+PRL,The Bahamas,0,0
+PRL,Bosnia and Herzegovina,8,0
+PRL,Belarus,55,0
+PRL,Belize,0,0
+PRL,Bolivia,1,0
+PRL,Brazil,1182,0
+PRL,Brunei,0,0
+PRL,Bhutan,0,0
+PRL,Botswana,0,0
+PRL,Central African Republic,0,0
+PRL,Canada,4873,0
+PRL,Switzerland,4768,0
+PRL,Chile,228,0
+PRL,China,5176,0
+PRL,Ivory Coast,1,0
+PRL,Cameroon,0,0
+PRL,Democratic Republic of the Congo,0,0
+PRL,Republic of the Congo,0,0
+PRL,Colombia,65,0
+PRL,Costa Rica,11,0
+PRL,Cuba,28,0
+PRL,Northern Cyprus,0,0
+PRL,Cyprus,21,0
+PRL,Czech Republic,541,0
+PRL,Germany,19599,0
+PRL,Djibouti,0,0
+PRL,Denmark,1924,0
+PRL,Dominican Republic,0,0
+PRL,Algeria,13,0
+PRL,Ecuador,33,0
+PRL,Egypt,17,0
+PRL,Eritrea,0,0
+PRL,Spain,3761,0
+PRL,Estonia,42,0
+PRL,Ethiopia,0,0
+PRL,Finland,1003,0
+PRL,Fiji,0,0
+PRL,Falkland Islands,0,0
+PRL,France,12670,0
+PRL,Gabon,0,0
+PRL,England,1014,0
+PRL,Georgia,782,0
+PRL,Ghana,2,0
+PRL,Guinea,0,0
+PRL,Gambia,0,0
+PRL,Guinea Bissau,0,0
+PRL,Equatorial Guinea,0,0
+PRL,Greece,434,0
+PRL,Greenland,0,0
+PRL,Guatemala,0,0
+PRL,Guyana,0,0
+PRL,Honduras,0,0
+PRL,Croatia,138,0
+PRL,Haiti,0,0
+PRL,Hungary,627,0
+PRL,Indonesia,8,0
+PRL,India,3097,0
+PRL,Ireland,345,0
+PRL,Iran,150,0
+PRL,Iraq,1,0
+PRL,Iceland,50,0
+PRL,Israel,3611,0
+PRL,Italy,5839,0
+PRL,Jamaica,4,0
+PRL,Jordan,13,0
+PRL,Japan,8701,0
+PRL,Kazakhstan,10,0
+PRL,Kenya,0,0
+PRL,Kyrgyzstan,0,0
+PRL,Cambodia,0,0
+PRL,South Korea,87,0
+PRL,Kosovo,0,0
+PRL,Kuwait,4,0
+PRL,Laos,0,0
+PRL,Lebanon,14,0
+PRL,Liberia,0,0
+PRL,Libya,1,0
+PRL,Sri Lanka,3,0
+PRL,Lesotho,0,0
+PRL,Lithuania,50,0
+PRL,Luxembourg,45,0
+PRL,Latvia,43,0
+PRL,Morocco,8,0
+PRL,Moldova,27,0
+PRL,Madagascar,0,0
+PRL,Mexico,3696,0
+PRL,Macedonia,9,0
+PRL,Mali,82,0
+PRL,Myanmar,2,0
+PRL,Montenegro,13,0
+PRL,Mongolia,5,0
+PRL,Mozambique,0,0
+PRL,Mauritania,0,0
+PRL,Malawi,0,0
+PRL,Malaysia,5,0
+PRL,Namibia,0,0
+PRL,New Caledonia,0,0
+PRL,Niger,6,0
+PRL,Nigeria,1,0
+PRL,Nicaragua,0,0
+PRL,Netherlands,3646,0
+PRL,Norway,478,0
+PRL,Nepal,1,0
+PRL,New Zealand,263,0
+PRL,Oman,305,0
+PRL,Pakistan,28,0
+PRL,Panama,2,0
+PRL,Peru,140,0
+PRL,Philippines,8,0
+PRL,Papua New Guinea,0,0
+PRL,Poland,1429,0
+PRL,Puerto Rico,45,0
+PRL,North Korea,0,0
+PRL,Portugal,407,0
+PRL,Paraguay,0,0
+PRL,Qatar,23,0
+PRL,Romania,157,0
+PRL,Russia,3378,0
+PRL,Rwanda,0,0
+PRL,Western Sahara,0,0
+PRL,Saudi Arabia,73,0
+PRL,Sudan,0,0
+PRL,South Sudan,0,0
+PRL,Senegal,0,0
+PRL,Solomon Islands,0,0
+PRL,Sierra Leone,0,0
+PRL,El Salvador,0,0
+PRL,Somaliland,0,0
+PRL,Somalia,0,0
+PRL,Republic of Serbia,1,0
+PRL,Suriname,0,0
+PRL,Slovakia,118,0
+PRL,Slovenia,368,0
+PRL,Sweden,2162,0
+PRL,Swaziland,3,0
+PRL,Syria,0,0
+PRL,Chad,7,0
+PRL,Togo,0,0
+PRL,Thailand,36,0
+PRL,Tajikistan,0,0
+PRL,Turkmenistan,0,0
+PRL,East Timor,0,0
+PRL,Trinidad and Tobago,0,0
+PRL,Tunisia,5,0
+PRL,Turkey,139,0
+PRL,Taiwan,732,0
+PRL,United Republic of Tanzania,0,0
+PRL,Uganda,0,0
+PRL,Ukraine,412,0
+PRL,Uruguay,31,0
+PRL,USA,25247,0
+PRL,Uzbekistan,10,0
+PRL,Venezuela,32,0
+PRL,Vietnam,20,0
+PRL,Vanuatu,0,0
+PRL,West Bank,2,0
+PRL,Yemen,0,0
+PRL,South Africa,178,0
+PRL,Zambia,0,0
+PRL,Zimbabwe,0,0
+PRMATERIALS,Afghanistan,0,0
+PRMATERIALS,Angola,0,0
+PRMATERIALS,Albania,0,0
+PRMATERIALS,United Arab Emirates,0,0
+PRMATERIALS,Argentina,6,0
+PRMATERIALS,Armenia,0,0
+PRMATERIALS,Antarctica,0,0
+PRMATERIALS,French Southern and Antarctic Lands,0,0
+PRMATERIALS,Australia,54,0
+PRMATERIALS,Austria,51,0
+PRMATERIALS,Azerbaijan,0,0
+PRMATERIALS,Burundi,0,0
+PRMATERIALS,Belgium,46,0
+PRMATERIALS,Benin,0,0
+PRMATERIALS,Burkina Faso,0,0
+PRMATERIALS,Bangladesh,1,0
+PRMATERIALS,Bulgaria,4,0
+PRMATERIALS,The Bahamas,0,0
+PRMATERIALS,Bosnia and Herzegovina,0,0
+PRMATERIALS,Belarus,4,0
+PRMATERIALS,Belize,0,0
+PRMATERIALS,Bolivia,0,0
+PRMATERIALS,Brazil,36,0
+PRMATERIALS,Brunei,0,0
+PRMATERIALS,Bhutan,0,0
+PRMATERIALS,Botswana,0,0
+PRMATERIALS,Central African Republic,0,0
+PRMATERIALS,Canada,80,0
+PRMATERIALS,Switzerland,124,0
+PRMATERIALS,Chile,6,0
+PRMATERIALS,China,410,0
+PRMATERIALS,Ivory Coast,0,0
+PRMATERIALS,Cameroon,0,0
+PRMATERIALS,Democratic Republic of the Congo,0,0
+PRMATERIALS,Republic of the Congo,0,0
+PRMATERIALS,Colombia,4,0
+PRMATERIALS,Costa Rica,3,0
+PRMATERIALS,Cuba,0,0
+PRMATERIALS,Northern Cyprus,0,0
+PRMATERIALS,Cyprus,0,0
+PRMATERIALS,Czech Republic,32,0
+PRMATERIALS,Germany,443,0
+PRMATERIALS,Djibouti,0,0
+PRMATERIALS,Denmark,34,0
+PRMATERIALS,Dominican Republic,0,0
+PRMATERIALS,Algeria,3,0
+PRMATERIALS,Ecuador,2,0
+PRMATERIALS,Egypt,4,0
+PRMATERIALS,Eritrea,0,0
+PRMATERIALS,Spain,97,0
+PRMATERIALS,Estonia,5,0
+PRMATERIALS,Ethiopia,0,0
+PRMATERIALS,Finland,26,0
+PRMATERIALS,Fiji,0,0
+PRMATERIALS,Falkland Islands,0,0
+PRMATERIALS,France,264,0
+PRMATERIALS,Gabon,0,0
+PRMATERIALS,England,11,0
+PRMATERIALS,Georgia,19,0
+PRMATERIALS,Ghana,0,0
+PRMATERIALS,Guinea,0,0
+PRMATERIALS,Gambia,0,0
+PRMATERIALS,Guinea Bissau,0,0
+PRMATERIALS,Equatorial Guinea,0,0
+PRMATERIALS,Greece,9,0
+PRMATERIALS,Greenland,0,0
+PRMATERIALS,Guatemala,0,0
+PRMATERIALS,Guyana,0,0
+PRMATERIALS,Honduras,0,0
+PRMATERIALS,Croatia,4,0
+PRMATERIALS,Haiti,0,0
+PRMATERIALS,Hungary,8,0
+PRMATERIALS,Indonesia,1,0
+PRMATERIALS,India,117,0
+PRMATERIALS,Ireland,28,0
+PRMATERIALS,Iran,5,0
+PRMATERIALS,Iraq,0,0
+PRMATERIALS,Iceland,4,0
+PRMATERIALS,Israel,28,0
+PRMATERIALS,Italy,119,0
+PRMATERIALS,Jamaica,0,0
+PRMATERIALS,Jordan,0,0
+PRMATERIALS,Japan,318,0
+PRMATERIALS,Kazakhstan,0,0
+PRMATERIALS,Kenya,0,0
+PRMATERIALS,Kyrgyzstan,0,0
+PRMATERIALS,Cambodia,0,0
+PRMATERIALS,South Korea,12,0
+PRMATERIALS,Kosovo,0,0
+PRMATERIALS,Kuwait,0,0
+PRMATERIALS,Laos,0,0
+PRMATERIALS,Lebanon,0,0
+PRMATERIALS,Liberia,0,0
+PRMATERIALS,Libya,0,0
+PRMATERIALS,Sri Lanka,0,0
+PRMATERIALS,Lesotho,0,0
+PRMATERIALS,Lithuania,1,0
+PRMATERIALS,Luxembourg,23,0
+PRMATERIALS,Latvia,0,0
+PRMATERIALS,Morocco,2,0
+PRMATERIALS,Moldova,1,0
+PRMATERIALS,Madagascar,0,0
+PRMATERIALS,Mexico,63,0
+PRMATERIALS,Macedonia,0,0
+PRMATERIALS,Mali,1,0
+PRMATERIALS,Myanmar,0,0
+PRMATERIALS,Montenegro,1,0
+PRMATERIALS,Mongolia,1,0
+PRMATERIALS,Mozambique,0,0
+PRMATERIALS,Mauritania,0,0
+PRMATERIALS,Malawi,0,0
+PRMATERIALS,Malaysia,1,0
+PRMATERIALS,Namibia,0,0
+PRMATERIALS,New Caledonia,0,0
+PRMATERIALS,Niger,0,0
+PRMATERIALS,Nigeria,0,0
+PRMATERIALS,Nicaragua,0,0
+PRMATERIALS,Netherlands,71,0
+PRMATERIALS,Norway,24,0
+PRMATERIALS,Nepal,1,0
+PRMATERIALS,New Zealand,4,0
+PRMATERIALS,Oman,9,0
+PRMATERIALS,Pakistan,4,0
+PRMATERIALS,Panama,0,0
+PRMATERIALS,Peru,1,0
+PRMATERIALS,Philippines,0,0
+PRMATERIALS,Papua New Guinea,0,0
+PRMATERIALS,Poland,44,0
+PRMATERIALS,Puerto Rico,2,0
+PRMATERIALS,North Korea,0,0
+PRMATERIALS,Portugal,10,0
+PRMATERIALS,Paraguay,0,0
+PRMATERIALS,Qatar,3,0
+PRMATERIALS,Romania,6,0
+PRMATERIALS,Russia,68,0
+PRMATERIALS,Rwanda,0,0
+PRMATERIALS,Western Sahara,0,0
+PRMATERIALS,Saudi Arabia,6,0
+PRMATERIALS,Sudan,0,0
+PRMATERIALS,South Sudan,0,0
+PRMATERIALS,Senegal,0,0
+PRMATERIALS,Solomon Islands,0,0
+PRMATERIALS,Sierra Leone,0,0
+PRMATERIALS,El Salvador,0,0
+PRMATERIALS,Somaliland,0,0
+PRMATERIALS,Somalia,0,0
+PRMATERIALS,Republic of Serbia,0,0
+PRMATERIALS,Suriname,0,0
+PRMATERIALS,Slovakia,4,0
+PRMATERIALS,Slovenia,10,0
+PRMATERIALS,Sweden,88,0
+PRMATERIALS,Swaziland,0,0
+PRMATERIALS,Syria,0,0
+PRMATERIALS,Chad,0,0
+PRMATERIALS,Togo,3,0
+PRMATERIALS,Thailand,3,0
+PRMATERIALS,Tajikistan,0,0
+PRMATERIALS,Turkmenistan,0,0
+PRMATERIALS,East Timor,0,0
+PRMATERIALS,Trinidad and Tobago,0,0
+PRMATERIALS,Tunisia,2,0
+PRMATERIALS,Turkey,12,0
+PRMATERIALS,Taiwan,52,0
+PRMATERIALS,United Republic of Tanzania,0,0
+PRMATERIALS,Uganda,0,0
+PRMATERIALS,Ukraine,13,0
+PRMATERIALS,Uruguay,0,0
+PRMATERIALS,USA,1157,0
+PRMATERIALS,Uzbekistan,0,0
+PRMATERIALS,Venezuela,0,0
+PRMATERIALS,Vietnam,1,0
+PRMATERIALS,Vanuatu,0,0
+PRMATERIALS,West Bank,0,0
+PRMATERIALS,Yemen,1,0
+PRMATERIALS,South Africa,5,0
+PRMATERIALS,Zambia,0,0
+PRMATERIALS,Zimbabwe,0,0
+PRPER,Afghanistan,0,0
+PRPER,Angola,0,0
+PRPER,Albania,0,0
+PRPER,United Arab Emirates,0,0
+PRPER,Argentina,1,0
+PRPER,Armenia,0,0
+PRPER,Antarctica,0,0
+PRPER,French Southern and Antarctic Lands,0,0
+PRPER,Australia,5,0
+PRPER,Austria,6,0
+PRPER,Azerbaijan,0,0
+PRPER,Burundi,0,0
+PRPER,Belgium,13,0
+PRPER,Benin,0,0
+PRPER,Burkina Faso,0,0
+PRPER,Bangladesh,0,0
+PRPER,Bulgaria,0,0
+PRPER,The Bahamas,0,0
+PRPER,Bosnia and Herzegovina,3,0
+PRPER,Belarus,0,0
+PRPER,Belize,0,0
+PRPER,Bolivia,0,0
+PRPER,Brazil,3,0
+PRPER,Brunei,0,0
+PRPER,Bhutan,0,0
+PRPER,Botswana,0,0
+PRPER,Central African Republic,0,0
+PRPER,Canada,11,0
+PRPER,Switzerland,3,0
+PRPER,Chile,6,0
+PRPER,China,15,0
+PRPER,Ivory Coast,0,0
+PRPER,Cameroon,0,0
+PRPER,Democratic Republic of the Congo,0,0
+PRPER,Republic of the Congo,0,0
+PRPER,Colombia,0,0
+PRPER,Costa Rica,0,0
+PRPER,Cuba,0,0
+PRPER,Northern Cyprus,0,0
+PRPER,Cyprus,0,0
+PRPER,Czech Republic,0,0
+PRPER,Germany,15,0
+PRPER,Djibouti,0,0
+PRPER,Denmark,2,0
+PRPER,Dominican Republic,0,0
+PRPER,Algeria,0,0
+PRPER,Ecuador,0,0
+PRPER,Egypt,0,0
+PRPER,Eritrea,0,0
+PRPER,Spain,9,0
+PRPER,Estonia,0,0
+PRPER,Ethiopia,0,0
+PRPER,Finland,7,0
+PRPER,Fiji,0,0
+PRPER,Falkland Islands,0,0
+PRPER,France,2,0
+PRPER,Gabon,0,0
+PRPER,England,0,0
+PRPER,Georgia,9,0
+PRPER,Ghana,0,0
+PRPER,Guinea,0,0
+PRPER,Gambia,0,0
+PRPER,Guinea Bissau,0,0
+PRPER,Equatorial Guinea,0,0
+PRPER,Greece,1,0
+PRPER,Greenland,0,0
+PRPER,Guatemala,0,0
+PRPER,Guyana,0,0
+PRPER,Honduras,0,0
+PRPER,Croatia,12,0
+PRPER,Haiti,0,0
+PRPER,Hungary,0,0
+PRPER,Indonesia,0,0
+PRPER,India,12,0
+PRPER,Ireland,10,0
+PRPER,Iran,0,0
+PRPER,Iraq,0,0
+PRPER,Iceland,0,0
+PRPER,Israel,10,0
+PRPER,Italy,11,0
+PRPER,Jamaica,0,0
+PRPER,Jordan,1,0
+PRPER,Japan,2,0
+PRPER,Kazakhstan,0,0
+PRPER,Kenya,0,0
+PRPER,Kyrgyzstan,0,0
+PRPER,Cambodia,0,0
+PRPER,South Korea,1,0
+PRPER,Kosovo,0,0
+PRPER,Kuwait,0,0
+PRPER,Laos,0,0
+PRPER,Lebanon,0,0
+PRPER,Liberia,0,0
+PRPER,Libya,0,0
+PRPER,Sri Lanka,0,0
+PRPER,Lesotho,0,0
+PRPER,Lithuania,0,0
+PRPER,Luxembourg,0,0
+PRPER,Latvia,0,0
+PRPER,Morocco,0,0
+PRPER,Moldova,0,0
+PRPER,Madagascar,0,0
+PRPER,Mexico,6,0
+PRPER,Macedonia,0,0
+PRPER,Mali,1,0
+PRPER,Myanmar,0,0
+PRPER,Montenegro,0,0
+PRPER,Mongolia,0,0
+PRPER,Mozambique,0,0
+PRPER,Mauritania,0,0
+PRPER,Malawi,0,0
+PRPER,Malaysia,0,0
+PRPER,Namibia,0,0
+PRPER,New Caledonia,0,0
+PRPER,Niger,3,0
+PRPER,Nigeria,0,0
+PRPER,Nicaragua,0,0
+PRPER,Netherlands,5,0
+PRPER,Norway,17,0
+PRPER,Nepal,0,0
+PRPER,New Zealand,4,0
+PRPER,Oman,0,0
+PRPER,Pakistan,0,0
+PRPER,Panama,0,0
+PRPER,Peru,0,0
+PRPER,Philippines,0,0
+PRPER,Papua New Guinea,0,0
+PRPER,Poland,0,0
+PRPER,Puerto Rico,0,0
+PRPER,North Korea,0,0
+PRPER,Portugal,1,0
+PRPER,Paraguay,0,0
+PRPER,Qatar,0,0
+PRPER,Romania,0,0
+PRPER,Russia,0,0
+PRPER,Rwanda,0,0
+PRPER,Western Sahara,0,0
+PRPER,Saudi Arabia,0,0
+PRPER,Sudan,0,0
+PRPER,South Sudan,0,0
+PRPER,Senegal,0,0
+PRPER,Solomon Islands,0,0
+PRPER,Sierra Leone,0,0
+PRPER,El Salvador,0,0
+PRPER,Somaliland,0,0
+PRPER,Somalia,0,0
+PRPER,Republic of Serbia,0,0
+PRPER,Suriname,0,0
+PRPER,Slovakia,0,0
+PRPER,Slovenia,5,0
+PRPER,Sweden,8,0
+PRPER,Swaziland,0,0
+PRPER,Syria,0,0
+PRPER,Chad,0,0
+PRPER,Togo,0,0
+PRPER,Thailand,2,0
+PRPER,Tajikistan,0,0
+PRPER,Turkmenistan,0,0
+PRPER,East Timor,0,0
+PRPER,Trinidad and Tobago,0,0
+PRPER,Tunisia,0,0
+PRPER,Turkey,5,0
+PRPER,Taiwan,6,0
+PRPER,United Republic of Tanzania,0,0
+PRPER,Uganda,0,0
+PRPER,Ukraine,0,0
+PRPER,Uruguay,1,0
+PRPER,USA,360,0
+PRPER,Uzbekistan,0,0
+PRPER,Venezuela,0,0
+PRPER,Vietnam,0,0
+PRPER,Vanuatu,0,0
+PRPER,West Bank,0,0
+PRPER,Yemen,0,0
+PRPER,South Africa,3,0
+PRPER,Zambia,0,0
+PRPER,Zimbabwe,0,0
+PRRESEARCH,Afghanistan,0,0
+PRRESEARCH,Angola,0,0
+PRRESEARCH,Albania,0,0
+PRRESEARCH,United Arab Emirates,0,0
+PRRESEARCH,Argentina,12,0
+PRRESEARCH,Armenia,6,0
+PRRESEARCH,Antarctica,0,0
+PRRESEARCH,French Southern and Antarctic Lands,0,0
+PRRESEARCH,Australia,64,0
+PRRESEARCH,Austria,52,0
+PRRESEARCH,Azerbaijan,0,0
+PRRESEARCH,Burundi,0,0
+PRRESEARCH,Belgium,26,0
+PRRESEARCH,Benin,0,0
+PRRESEARCH,Burkina Faso,0,0
+PRRESEARCH,Bangladesh,0,0
+PRRESEARCH,Bulgaria,4,0
+PRRESEARCH,The Bahamas,0,0
+PRRESEARCH,Bosnia and Herzegovina,0,0
+PRRESEARCH,Belarus,0,0
+PRRESEARCH,Belize,0,0
+PRRESEARCH,Bolivia,0,0
+PRRESEARCH,Brazil,59,0
+PRRESEARCH,Brunei,0,0
+PRRESEARCH,Bhutan,0,0
+PRRESEARCH,Botswana,0,0
+PRRESEARCH,Central African Republic,0,0
+PRRESEARCH,Canada,111,0
+PRRESEARCH,Switzerland,160,0
+PRRESEARCH,Chile,10,0
+PRRESEARCH,China,290,0
+PRRESEARCH,Ivory Coast,0,0
+PRRESEARCH,Cameroon,0,0
+PRRESEARCH,Democratic Republic of the Congo,0,0
+PRRESEARCH,Republic of the Congo,0,0
+PRRESEARCH,Colombia,4,0
+PRRESEARCH,Costa Rica,0,0
+PRRESEARCH,Cuba,0,0
+PRRESEARCH,Northern Cyprus,0,0
+PRRESEARCH,Cyprus,3,0
+PRRESEARCH,Czech Republic,20,0
+PRRESEARCH,Germany,512,0
+PRRESEARCH,Djibouti,0,0
+PRRESEARCH,Denmark,49,0
+PRRESEARCH,Dominican Republic,0,0
+PRRESEARCH,Algeria,1,0
+PRRESEARCH,Ecuador,0,0
+PRRESEARCH,Egypt,0,0
+PRRESEARCH,Eritrea,0,0
+PRRESEARCH,Spain,141,0
+PRRESEARCH,Estonia,2,0
+PRRESEARCH,Ethiopia,0,0
+PRRESEARCH,Finland,50,0
+PRRESEARCH,Fiji,0,0
+PRRESEARCH,Falkland Islands,0,0
+PRRESEARCH,France,203,0
+PRRESEARCH,Gabon,0,0
+PRRESEARCH,England,8,0
+PRRESEARCH,Georgia,17,0
+PRRESEARCH,Ghana,0,0
+PRRESEARCH,Guinea,0,0
+PRRESEARCH,Gambia,0,0
+PRRESEARCH,Guinea Bissau,0,0
+PRRESEARCH,Equatorial Guinea,0,0
+PRRESEARCH,Greece,13,0
+PRRESEARCH,Greenland,0,0
+PRRESEARCH,Guatemala,0,0
+PRRESEARCH,Guyana,0,0
+PRRESEARCH,Honduras,0,0
+PRRESEARCH,Croatia,1,0
+PRRESEARCH,Haiti,0,0
+PRRESEARCH,Hungary,18,0
+PRRESEARCH,Indonesia,1,0
+PRRESEARCH,India,126,0
+PRRESEARCH,Ireland,16,0
+PRRESEARCH,Iran,7,0
+PRRESEARCH,Iraq,0,0
+PRRESEARCH,Iceland,0,0
+PRRESEARCH,Israel,89,0
+PRRESEARCH,Italy,194,0
+PRRESEARCH,Jamaica,0,0
+PRRESEARCH,Jordan,0,0
+PRRESEARCH,Japan,293,0
+PRRESEARCH,Kazakhstan,5,0
+PRRESEARCH,Kenya,0,0
+PRRESEARCH,Kyrgyzstan,0,0
+PRRESEARCH,Cambodia,0,0
+PRRESEARCH,South Korea,3,0
+PRRESEARCH,Kosovo,0,0
+PRRESEARCH,Kuwait,0,0
+PRRESEARCH,Laos,0,0
+PRRESEARCH,Lebanon,1,0
+PRRESEARCH,Liberia,0,0
+PRRESEARCH,Libya,0,0
+PRRESEARCH,Sri Lanka,0,0
+PRRESEARCH,Lesotho,0,0
+PRRESEARCH,Lithuania,1,0
+PRRESEARCH,Luxembourg,5,0
+PRRESEARCH,Latvia,1,0
+PRRESEARCH,Morocco,0,0
+PRRESEARCH,Moldova,1,0
+PRRESEARCH,Madagascar,0,0
+PRRESEARCH,Mexico,42,0
+PRRESEARCH,Macedonia,1,0
+PRRESEARCH,Mali,1,0
+PRRESEARCH,Myanmar,0,0
+PRRESEARCH,Montenegro,0,0
+PRRESEARCH,Mongolia,0,0
+PRRESEARCH,Mozambique,0,0
+PRRESEARCH,Mauritania,0,0
+PRRESEARCH,Malawi,0,0
+PRRESEARCH,Malaysia,0,0
+PRRESEARCH,Namibia,0,0
+PRRESEARCH,New Caledonia,0,0
+PRRESEARCH,Niger,2,0
+PRRESEARCH,Nigeria,2,0
+PRRESEARCH,Nicaragua,0,0
+PRRESEARCH,Netherlands,55,0
+PRRESEARCH,Norway,17,0
+PRRESEARCH,Nepal,1,0
+PRRESEARCH,New Zealand,14,0
+PRRESEARCH,Oman,3,0
+PRRESEARCH,Pakistan,0,0
+PRRESEARCH,Panama,0,0
+PRRESEARCH,Peru,1,0
+PRRESEARCH,Philippines,1,0
+PRRESEARCH,Papua New Guinea,0,0
+PRRESEARCH,Poland,51,0
+PRRESEARCH,Puerto Rico,0,0
+PRRESEARCH,North Korea,0,0
+PRRESEARCH,Portugal,13,0
+PRRESEARCH,Paraguay,0,0
+PRRESEARCH,Qatar,0,0
+PRRESEARCH,Romania,3,0
+PRRESEARCH,Russia,90,0
+PRRESEARCH,Rwanda,0,0
+PRRESEARCH,Western Sahara,0,0
+PRRESEARCH,Saudi Arabia,4,0
+PRRESEARCH,Sudan,0,0
+PRRESEARCH,South Sudan,0,0
+PRRESEARCH,Senegal,0,0
+PRRESEARCH,Solomon Islands,0,0
+PRRESEARCH,Sierra Leone,0,0
+PRRESEARCH,El Salvador,0,0
+PRRESEARCH,Somaliland,0,0
+PRRESEARCH,Somalia,0,0
+PRRESEARCH,Republic of Serbia,0,0
+PRRESEARCH,Suriname,0,0
+PRRESEARCH,Slovakia,3,0
+PRRESEARCH,Slovenia,11,0
+PRRESEARCH,Sweden,67,0
+PRRESEARCH,Swaziland,0,0
+PRRESEARCH,Syria,0,0
+PRRESEARCH,Chad,0,0
+PRRESEARCH,Togo,0,0
+PRRESEARCH,Thailand,0,0
+PRRESEARCH,Tajikistan,0,0
+PRRESEARCH,Turkmenistan,0,0
+PRRESEARCH,East Timor,0,0
+PRRESEARCH,Trinidad and Tobago,0,0
+PRRESEARCH,Tunisia,0,0
+PRRESEARCH,Turkey,9,0
+PRRESEARCH,Taiwan,21,0
+PRRESEARCH,United Republic of Tanzania,0,0
+PRRESEARCH,Uganda,0,0
+PRRESEARCH,Ukraine,14,0
+PRRESEARCH,Uruguay,0,0
+PRRESEARCH,USA,837,0
+PRRESEARCH,Uzbekistan,0,0
+PRRESEARCH,Venezuela,0,0
+PRRESEARCH,Vietnam,1,0
+PRRESEARCH,Vanuatu,0,0
+PRRESEARCH,West Bank,0,0
+PRRESEARCH,Yemen,0,0
+PRRESEARCH,South Africa,9,0
+PRRESEARCH,Zambia,0,0
+PRRESEARCH,Zimbabwe,0,0
+PRSTAB,Afghanistan,0,0
+PRSTAB,Angola,0,0
+PRSTAB,Albania,0,0
+PRSTAB,United Arab Emirates,2,0
+PRSTAB,Argentina,1,0
+PRSTAB,Armenia,22,0
+PRSTAB,Antarctica,0,0
+PRSTAB,French Southern and Antarctic Lands,0,0
+PRSTAB,Australia,10,0
+PRSTAB,Austria,1,0
+PRSTAB,Azerbaijan,0,0
+PRSTAB,Burundi,0,0
+PRSTAB,Belgium,5,0
+PRSTAB,Benin,0,0
+PRSTAB,Burkina Faso,0,0
+PRSTAB,Bangladesh,0,0
+PRSTAB,Bulgaria,3,0
+PRSTAB,The Bahamas,0,0
+PRSTAB,Bosnia and Herzegovina,0,0
+PRSTAB,Belarus,2,0
+PRSTAB,Belize,0,0
+PRSTAB,Bolivia,0,0
+PRSTAB,Brazil,7,0
+PRSTAB,Brunei,0,0
+PRSTAB,Bhutan,0,0
+PRSTAB,Botswana,0,0
+PRSTAB,Central African Republic,0,0
+PRSTAB,Canada,10,0
+PRSTAB,Switzerland,260,0
+PRSTAB,Chile,0,0
+PRSTAB,China,128,0
+PRSTAB,Ivory Coast,0,0
+PRSTAB,Cameroon,0,0
+PRSTAB,Democratic Republic of the Congo,0,0
+PRSTAB,Republic of the Congo,0,0
+PRSTAB,Colombia,4,0
+PRSTAB,Costa Rica,0,0
+PRSTAB,Cuba,0,0
+PRSTAB,Northern Cyprus,0,0
+PRSTAB,Cyprus,0,0
+PRSTAB,Czech Republic,5,0
+PRSTAB,Germany,299,0
+PRSTAB,Djibouti,0,0
+PRSTAB,Denmark,4,0
+PRSTAB,Dominican Republic,0,0
+PRSTAB,Algeria,0,0
+PRSTAB,Ecuador,0,0
+PRSTAB,Egypt,1,0
+PRSTAB,Eritrea,0,0
+PRSTAB,Spain,18,0
+PRSTAB,Estonia,1,0
+PRSTAB,Ethiopia,0,0
+PRSTAB,Finland,3,0
+PRSTAB,Fiji,0,0
+PRSTAB,Falkland Islands,0,0
+PRSTAB,France,95,0
+PRSTAB,Gabon,0,0
+PRSTAB,England,1,0
+PRSTAB,Georgia,2,0
+PRSTAB,Ghana,0,0
+PRSTAB,Guinea,0,0
+PRSTAB,Gambia,0,0
+PRSTAB,Guinea Bissau,0,0
+PRSTAB,Equatorial Guinea,0,0
+PRSTAB,Greece,1,0
+PRSTAB,Greenland,0,0
+PRSTAB,Guatemala,0,0
+PRSTAB,Guyana,0,0
+PRSTAB,Honduras,0,0
+PRSTAB,Croatia,0,0
+PRSTAB,Haiti,0,0
+PRSTAB,Hungary,1,0
+PRSTAB,Indonesia,0,0
+PRSTAB,India,57,0
+PRSTAB,Ireland,0,0
+PRSTAB,Iran,30,0
+PRSTAB,Iraq,0,0
+PRSTAB,Iceland,0,0
+PRSTAB,Israel,19,0
+PRSTAB,Italy,138,0
+PRSTAB,Jamaica,0,0
+PRSTAB,Jordan,1,0
+PRSTAB,Japan,233,0
+PRSTAB,Kazakhstan,1,0
+PRSTAB,Kenya,0,0
+PRSTAB,Kyrgyzstan,0,0
+PRSTAB,Cambodia,0,0
+PRSTAB,South Korea,2,0
+PRSTAB,Kosovo,0,0
+PRSTAB,Kuwait,0,0
+PRSTAB,Laos,0,0
+PRSTAB,Lebanon,0,0
+PRSTAB,Liberia,0,0
+PRSTAB,Libya,0,0
+PRSTAB,Sri Lanka,0,0
+PRSTAB,Lesotho,0,0
+PRSTAB,Lithuania,0,0
+PRSTAB,Luxembourg,0,0
+PRSTAB,Latvia,0,0
+PRSTAB,Morocco,0,0
+PRSTAB,Moldova,0,0
+PRSTAB,Madagascar,0,0
+PRSTAB,Mexico,138,0
+PRSTAB,Macedonia,0,0
+PRSTAB,Mali,1,0
+PRSTAB,Myanmar,0,0
+PRSTAB,Montenegro,0,0
+PRSTAB,Mongolia,0,0
+PRSTAB,Mozambique,0,0
+PRSTAB,Mauritania,0,0
+PRSTAB,Malawi,0,0
+PRSTAB,Malaysia,0,0
+PRSTAB,Namibia,0,0
+PRSTAB,New Caledonia,0,0
+PRSTAB,Niger,0,0
+PRSTAB,Nigeria,0,0
+PRSTAB,Nicaragua,0,0
+PRSTAB,Netherlands,20,0
+PRSTAB,Norway,5,0
+PRSTAB,Nepal,0,0
+PRSTAB,New Zealand,0,0
+PRSTAB,Oman,1,0
+PRSTAB,Pakistan,1,0
+PRSTAB,Panama,0,0
+PRSTAB,Peru,0,0
+PRSTAB,Philippines,0,0
+PRSTAB,Papua New Guinea,0,0
+PRSTAB,Poland,4,0
+PRSTAB,Puerto Rico,0,0
+PRSTAB,North Korea,0,0
+PRSTAB,Portugal,7,0
+PRSTAB,Paraguay,0,0
+PRSTAB,Qatar,0,0
+PRSTAB,Romania,1,0
+PRSTAB,Russia,139,0
+PRSTAB,Rwanda,0,0
+PRSTAB,Western Sahara,0,0
+PRSTAB,Saudi Arabia,0,0
+PRSTAB,Sudan,0,0
+PRSTAB,South Sudan,0,0
+PRSTAB,Senegal,0,0
+PRSTAB,Solomon Islands,0,0
+PRSTAB,Sierra Leone,0,0
+PRSTAB,El Salvador,0,0
+PRSTAB,Somaliland,0,0
+PRSTAB,Somalia,0,0
+PRSTAB,Republic of Serbia,0,0
+PRSTAB,Suriname,0,0
+PRSTAB,Slovakia,1,0
+PRSTAB,Slovenia,3,0
+PRSTAB,Sweden,40,0
+PRSTAB,Swaziland,0,0
+PRSTAB,Syria,0,0
+PRSTAB,Chad,0,0
+PRSTAB,Togo,0,0
+PRSTAB,Thailand,0,0
+PRSTAB,Tajikistan,0,0
+PRSTAB,Turkmenistan,0,0
+PRSTAB,East Timor,0,0
+PRSTAB,Trinidad and Tobago,0,0
+PRSTAB,Tunisia,1,0
+PRSTAB,Turkey,2,0
+PRSTAB,Taiwan,8,0
+PRSTAB,United Republic of Tanzania,0,0
+PRSTAB,Uganda,0,0
+PRSTAB,Ukraine,15,0
+PRSTAB,Uruguay,0,0
+PRSTAB,USA,1056,0
+PRSTAB,Uzbekistan,0,0
+PRSTAB,Venezuela,0,0
+PRSTAB,Vietnam,0,0
+PRSTAB,Vanuatu,0,0
+PRSTAB,West Bank,0,0
+PRSTAB,Yemen,0,0
+PRSTAB,South Africa,1,0
+PRSTAB,Zambia,0,0
+PRSTAB,Zimbabwe,0,0
+PRSTPER,Afghanistan,0,0
+PRSTPER,Angola,0,0
+PRSTPER,Albania,0,0
+PRSTPER,United Arab Emirates,1,0
+PRSTPER,Argentina,1,0
+PRSTPER,Armenia,0,0
+PRSTPER,Antarctica,0,0
+PRSTPER,French Southern and Antarctic Lands,0,0
+PRSTPER,Australia,5,0
+PRSTPER,Austria,0,0
+PRSTPER,Azerbaijan,0,0
+PRSTPER,Burundi,0,0
+PRSTPER,Belgium,2,0
+PRSTPER,Benin,0,0
+PRSTPER,Burkina Faso,0,0
+PRSTPER,Bangladesh,0,0
+PRSTPER,Bulgaria,0,0
+PRSTPER,The Bahamas,0,0
+PRSTPER,Bosnia and Herzegovina,2,0
+PRSTPER,Belarus,0,0
+PRSTPER,Belize,0,0
+PRSTPER,Bolivia,0,0
+PRSTPER,Brazil,1,0
+PRSTPER,Brunei,0,0
+PRSTPER,Bhutan,0,0
+PRSTPER,Botswana,0,0
+PRSTPER,Central African Republic,0,0
+PRSTPER,Canada,18,0
+PRSTPER,Switzerland,0,0
+PRSTPER,Chile,0,0
+PRSTPER,China,6,0
+PRSTPER,Ivory Coast,0,0
+PRSTPER,Cameroon,0,0
+PRSTPER,Democratic Republic of the Congo,0,0
+PRSTPER,Republic of the Congo,0,0
+PRSTPER,Colombia,0,0
+PRSTPER,Costa Rica,0,0
+PRSTPER,Cuba,0,0
+PRSTPER,Northern Cyprus,0,0
+PRSTPER,Cyprus,0,0
+PRSTPER,Czech Republic,0,0
+PRSTPER,Germany,2,0
+PRSTPER,Djibouti,0,0
+PRSTPER,Denmark,1,0
+PRSTPER,Dominican Republic,0,0
+PRSTPER,Algeria,0,0
+PRSTPER,Ecuador,0,0
+PRSTPER,Egypt,0,0
+PRSTPER,Eritrea,0,0
+PRSTPER,Spain,3,0
+PRSTPER,Estonia,0,0
+PRSTPER,Ethiopia,1,0
+PRSTPER,Finland,7,0
+PRSTPER,Fiji,0,0
+PRSTPER,Falkland Islands,0,0
+PRSTPER,France,1,0
+PRSTPER,Gabon,0,0
+PRSTPER,England,0,0
+PRSTPER,Georgia,8,0
+PRSTPER,Ghana,0,0
+PRSTPER,Guinea,0,0
+PRSTPER,Gambia,0,0
+PRSTPER,Guinea Bissau,0,0
+PRSTPER,Equatorial Guinea,0,0
+PRSTPER,Greece,0,0
+PRSTPER,Greenland,0,0
+PRSTPER,Guatemala,0,0
+PRSTPER,Guyana,0,0
+PRSTPER,Honduras,0,0
+PRSTPER,Croatia,4,0
+PRSTPER,Haiti,0,0
+PRSTPER,Hungary,0,0
+PRSTPER,Indonesia,0,0
+PRSTPER,India,7,0
+PRSTPER,Ireland,4,0
+PRSTPER,Iran,0,0
+PRSTPER,Iraq,0,0
+PRSTPER,Iceland,0,0
+PRSTPER,Israel,12,0
+PRSTPER,Italy,6,0
+PRSTPER,Jamaica,0,0
+PRSTPER,Jordan,0,0
+PRSTPER,Japan,3,0
+PRSTPER,Kazakhstan,0,0
+PRSTPER,Kenya,0,0
+PRSTPER,Kyrgyzstan,0,0
+PRSTPER,Cambodia,0,0
+PRSTPER,South Korea,0,0
+PRSTPER,Kosovo,0,0
+PRSTPER,Kuwait,0,0
+PRSTPER,Laos,0,0
+PRSTPER,Lebanon,0,0
+PRSTPER,Liberia,0,0
+PRSTPER,Libya,0,0
+PRSTPER,Sri Lanka,0,0
+PRSTPER,Lesotho,0,0
+PRSTPER,Lithuania,0,0
+PRSTPER,Luxembourg,0,0
+PRSTPER,Latvia,0,0
+PRSTPER,Morocco,0,0
+PRSTPER,Moldova,0,0
+PRSTPER,Madagascar,0,0
+PRSTPER,Mexico,4,0
+PRSTPER,Macedonia,0,0
+PRSTPER,Mali,0,0
+PRSTPER,Myanmar,0,0
+PRSTPER,Montenegro,0,0
+PRSTPER,Mongolia,0,0
+PRSTPER,Mozambique,0,0
+PRSTPER,Mauritania,0,0
+PRSTPER,Malawi,0,0
+PRSTPER,Malaysia,0,0
+PRSTPER,Namibia,0,0
+PRSTPER,New Caledonia,0,0
+PRSTPER,Niger,1,0
+PRSTPER,Nigeria,0,0
+PRSTPER,Nicaragua,0,0
+PRSTPER,Netherlands,1,0
+PRSTPER,Norway,0,0
+PRSTPER,Nepal,0,0
+PRSTPER,New Zealand,2,0
+PRSTPER,Oman,0,0
+PRSTPER,Pakistan,0,0
+PRSTPER,Panama,0,0
+PRSTPER,Peru,0,0
+PRSTPER,Philippines,0,0
+PRSTPER,Papua New Guinea,0,0
+PRSTPER,Poland,0,0
+PRSTPER,Puerto Rico,0,0
+PRSTPER,North Korea,0,0
+PRSTPER,Portugal,1,0
+PRSTPER,Paraguay,0,0
+PRSTPER,Qatar,0,0
+PRSTPER,Romania,0,0
+PRSTPER,Russia,0,0
+PRSTPER,Rwanda,0,0
+PRSTPER,Western Sahara,0,0
+PRSTPER,Saudi Arabia,0,0
+PRSTPER,Sudan,0,0
+PRSTPER,South Sudan,0,0
+PRSTPER,Senegal,0,0
+PRSTPER,Solomon Islands,0,0
+PRSTPER,Sierra Leone,0,0
+PRSTPER,El Salvador,0,0
+PRSTPER,Somaliland,0,0
+PRSTPER,Somalia,0,0
+PRSTPER,Republic of Serbia,0,0
+PRSTPER,Suriname,0,0
+PRSTPER,Slovakia,0,0
+PRSTPER,Slovenia,0,0
+PRSTPER,Sweden,6,0
+PRSTPER,Swaziland,0,0
+PRSTPER,Syria,0,0
+PRSTPER,Chad,0,0
+PRSTPER,Togo,0,0
+PRSTPER,Thailand,3,0
+PRSTPER,Tajikistan,0,0
+PRSTPER,Turkmenistan,0,0
+PRSTPER,East Timor,0,0
+PRSTPER,Trinidad and Tobago,0,0
+PRSTPER,Tunisia,0,0
+PRSTPER,Turkey,2,0
+PRSTPER,Taiwan,4,0
+PRSTPER,United Republic of Tanzania,0,0
+PRSTPER,Uganda,0,0
+PRSTPER,Ukraine,0,0
+PRSTPER,Uruguay,0,0
+PRSTPER,USA,267,0
+PRSTPER,Uzbekistan,0,0
+PRSTPER,Venezuela,0,0
+PRSTPER,Vietnam,0,0
+PRSTPER,Vanuatu,0,0
+PRSTPER,West Bank,0,0
+PRSTPER,Yemen,0,0
+PRSTPER,South Africa,5,0
+PRSTPER,Zambia,0,0
+PRSTPER,Zimbabwe,0,0
+PRX,Afghanistan,0,0
+PRX,Angola,0,0
+PRX,Albania,0,0
+PRX,United Arab Emirates,3,0
+PRX,Argentina,6,0
+PRX,Armenia,0,0
+PRX,Antarctica,0,0
+PRX,French Southern and Antarctic Lands,0,0
+PRX,Australia,72,0
+PRX,Austria,83,0
+PRX,Azerbaijan,0,0
+PRX,Burundi,0,0
+PRX,Belgium,32,0
+PRX,Benin,0,0
+PRX,Burkina Faso,0,0
+PRX,Bangladesh,0,0
+PRX,Bulgaria,0,0
+PRX,The Bahamas,0,0
+PRX,Bosnia and Herzegovina,0,0
+PRX,Belarus,2,0
+PRX,Belize,0,0
+PRX,Bolivia,0,0
+PRX,Brazil,16,0
+PRX,Brunei,0,0
+PRX,Bhutan,0,0
+PRX,Botswana,0,0
+PRX,Central African Republic,0,0
+PRX,Canada,136,0
+PRX,Switzerland,154,0
+PRX,Chile,4,0
+PRX,China,188,0
+PRX,Ivory Coast,0,0
+PRX,Cameroon,0,0
+PRX,Democratic Republic of the Congo,0,0
+PRX,Republic of the Congo,0,0
+PRX,Colombia,3,0
+PRX,Costa Rica,0,0
+PRX,Cuba,1,0
+PRX,Northern Cyprus,0,0
+PRX,Cyprus,0,0
+PRX,Czech Republic,14,0
+PRX,Germany,391,0
+PRX,Djibouti,0,0
+PRX,Denmark,40,0
+PRX,Dominican Republic,0,0
+PRX,Algeria,0,0
+PRX,Ecuador,0,0
+PRX,Egypt,0,0
+PRX,Eritrea,0,0
+PRX,Spain,115,0
+PRX,Estonia,0,0
+PRX,Ethiopia,0,0
+PRX,Finland,20,0
+PRX,Fiji,0,0
+PRX,Falkland Islands,0,0
+PRX,France,231,0
+PRX,Gabon,0,0
+PRX,England,1,0
+PRX,Georgia,9,0
+PRX,Ghana,0,0
+PRX,Guinea,0,0
+PRX,Gambia,0,0
+PRX,Guinea Bissau,0,0
+PRX,Equatorial Guinea,0,0
+PRX,Greece,5,0
+PRX,Greenland,0,0
+PRX,Guatemala,0,0
+PRX,Guyana,0,0
+PRX,Honduras,0,0
+PRX,Croatia,2,0
+PRX,Haiti,0,0
+PRX,Hungary,12,0
+PRX,Indonesia,0,0
+PRX,India,45,0
+PRX,Ireland,9,0
+PRX,Iran,3,0
+PRX,Iraq,0,0
+PRX,Iceland,0,0
+PRX,Israel,91,0
+PRX,Italy,106,0
+PRX,Jamaica,0,0
+PRX,Jordan,0,0
+PRX,Japan,128,0
+PRX,Kazakhstan,1,0
+PRX,Kenya,0,0
+PRX,Kyrgyzstan,0,0
+PRX,Cambodia,0,0
+PRX,South Korea,2,0
+PRX,Kosovo,0,0
+PRX,Kuwait,0,0
+PRX,Laos,0,0
+PRX,Lebanon,2,0
+PRX,Liberia,0,0
+PRX,Libya,0,0
+PRX,Sri Lanka,0,0
+PRX,Lesotho,0,0
+PRX,Lithuania,1,0
+PRX,Luxembourg,7,0
+PRX,Latvia,0,0
+PRX,Morocco,0,0
+PRX,Moldova,1,0
+PRX,Madagascar,0,0
+PRX,Mexico,39,0
+PRX,Macedonia,0,0
+PRX,Mali,3,0
+PRX,Myanmar,0,0
+PRX,Montenegro,0,0
+PRX,Mongolia,1,0
+PRX,Mozambique,0,0
+PRX,Mauritania,0,0
+PRX,Malawi,0,0
+PRX,Malaysia,0,0
+PRX,Namibia,0,0
+PRX,New Caledonia,0,0
+PRX,Niger,0,0
+PRX,Nigeria,0,0
+PRX,Nicaragua,0,0
+PRX,Netherlands,63,0
+PRX,Norway,5,0
+PRX,Nepal,0,0
+PRX,New Zealand,7,0
+PRX,Oman,2,0
+PRX,Pakistan,0,0
+PRX,Panama,0,0
+PRX,Peru,1,0
+PRX,Philippines,1,0
+PRX,Papua New Guinea,0,0
+PRX,Poland,33,0
+PRX,Puerto Rico,1,0
+PRX,North Korea,0,0
+PRX,Portugal,7,0
+PRX,Paraguay,0,0
+PRX,Qatar,1,0
+PRX,Romania,1,0
+PRX,Russia,45,0
+PRX,Rwanda,0,0
+PRX,Western Sahara,0,0
+PRX,Saudi Arabia,7,0
+PRX,Sudan,0,0
+PRX,South Sudan,0,0
+PRX,Senegal,0,0
+PRX,Solomon Islands,0,0
+PRX,Sierra Leone,0,0
+PRX,El Salvador,0,0
+PRX,Somaliland,0,0
+PRX,Somalia,0,0
+PRX,Republic of Serbia,0,0
+PRX,Suriname,0,0
+PRX,Slovakia,3,0
+PRX,Slovenia,16,0
+PRX,Sweden,41,0
+PRX,Swaziland,0,0
+PRX,Syria,0,0
+PRX,Chad,0,0
+PRX,Togo,0,0
+PRX,Thailand,1,0
+PRX,Tajikistan,0,0
+PRX,Turkmenistan,0,0
+PRX,East Timor,0,0
+PRX,Trinidad and Tobago,0,0
+PRX,Tunisia,0,0
+PRX,Turkey,2,0
+PRX,Taiwan,11,0
+PRX,United Republic of Tanzania,0,0
+PRX,Uganda,0,0
+PRX,Ukraine,8,0
+PRX,Uruguay,0,0
+PRX,USA,957,0
+PRX,Uzbekistan,0,0
+PRX,Venezuela,0,0
+PRX,Vietnam,0,0
+PRX,Vanuatu,0,0
+PRX,West Bank,0,0
+PRX,Yemen,0,0
+PRX,South Africa,2,0
+PRX,Zambia,0,0
+PRX,Zimbabwe,0,0
+PRXQUANTUM,Afghanistan,0,0
+PRXQUANTUM,Angola,0,0
+PRXQUANTUM,Albania,0,0
+PRXQUANTUM,United Arab Emirates,0,0
+PRXQUANTUM,Argentina,0,0
+PRXQUANTUM,Armenia,0,0
+PRXQUANTUM,Antarctica,0,0
+PRXQUANTUM,French Southern and Antarctic Lands,0,0
+PRXQUANTUM,Australia,2,0
+PRXQUANTUM,Austria,5,0
+PRXQUANTUM,Azerbaijan,0,0
+PRXQUANTUM,Burundi,0,0
+PRXQUANTUM,Belgium,0,0
+PRXQUANTUM,Benin,0,0
+PRXQUANTUM,Burkina Faso,0,0
+PRXQUANTUM,Bangladesh,0,0
+PRXQUANTUM,Bulgaria,0,0
+PRXQUANTUM,The Bahamas,0,0
+PRXQUANTUM,Bosnia and Herzegovina,0,0
+PRXQUANTUM,Belarus,0,0
+PRXQUANTUM,Belize,0,0
+PRXQUANTUM,Bolivia,0,0
+PRXQUANTUM,Brazil,0,0
+PRXQUANTUM,Brunei,0,0
+PRXQUANTUM,Bhutan,0,0
+PRXQUANTUM,Botswana,0,0
+PRXQUANTUM,Central African Republic,0,0
+PRXQUANTUM,Canada,10,0
+PRXQUANTUM,Switzerland,2,0
+PRXQUANTUM,Chile,0,0
+PRXQUANTUM,China,1,0
+PRXQUANTUM,Ivory Coast,0,0
+PRXQUANTUM,Cameroon,0,0
+PRXQUANTUM,Democratic Republic of the Congo,0,0
+PRXQUANTUM,Republic of the Congo,0,0
+PRXQUANTUM,Colombia,0,0
+PRXQUANTUM,Costa Rica,0,0
+PRXQUANTUM,Cuba,0,0
+PRXQUANTUM,Northern Cyprus,0,0
+PRXQUANTUM,Cyprus,0,0
+PRXQUANTUM,Czech Republic,0,0
+PRXQUANTUM,Germany,6,0
+PRXQUANTUM,Djibouti,0,0
+PRXQUANTUM,Denmark,0,0
+PRXQUANTUM,Dominican Republic,0,0
+PRXQUANTUM,Algeria,0,0
+PRXQUANTUM,Ecuador,0,0
+PRXQUANTUM,Egypt,0,0
+PRXQUANTUM,Eritrea,0,0
+PRXQUANTUM,Spain,4,0
+PRXQUANTUM,Estonia,0,0
+PRXQUANTUM,Ethiopia,0,0
+PRXQUANTUM,Finland,0,0
+PRXQUANTUM,Fiji,0,0
+PRXQUANTUM,Falkland Islands,0,0
+PRXQUANTUM,France,1,0
+PRXQUANTUM,Gabon,0,0
+PRXQUANTUM,England,0,0
+PRXQUANTUM,Georgia,0,0
+PRXQUANTUM,Ghana,0,0
+PRXQUANTUM,Guinea,0,0
+PRXQUANTUM,Gambia,0,0
+PRXQUANTUM,Guinea Bissau,0,0
+PRXQUANTUM,Equatorial Guinea,0,0
+PRXQUANTUM,Greece,0,0
+PRXQUANTUM,Greenland,0,0
+PRXQUANTUM,Guatemala,0,0
+PRXQUANTUM,Guyana,0,0
+PRXQUANTUM,Honduras,0,0
+PRXQUANTUM,Croatia,0,0
+PRXQUANTUM,Haiti,0,0
+PRXQUANTUM,Hungary,0,0
+PRXQUANTUM,Indonesia,0,0
+PRXQUANTUM,India,1,0
+PRXQUANTUM,Ireland,0,0
+PRXQUANTUM,Iran,0,0
+PRXQUANTUM,Iraq,0,0
+PRXQUANTUM,Iceland,0,0
+PRXQUANTUM,Israel,2,0
+PRXQUANTUM,Italy,1,0
+PRXQUANTUM,Jamaica,0,0
+PRXQUANTUM,Jordan,0,0
+PRXQUANTUM,Japan,0,0
+PRXQUANTUM,Kazakhstan,0,0
+PRXQUANTUM,Kenya,0,0
+PRXQUANTUM,Kyrgyzstan,0,0
+PRXQUANTUM,Cambodia,0,0
+PRXQUANTUM,South Korea,0,0
+PRXQUANTUM,Kosovo,0,0
+PRXQUANTUM,Kuwait,0,0
+PRXQUANTUM,Laos,0,0
+PRXQUANTUM,Lebanon,0,0
+PRXQUANTUM,Liberia,0,0
+PRXQUANTUM,Libya,0,0
+PRXQUANTUM,Sri Lanka,0,0
+PRXQUANTUM,Lesotho,0,0
+PRXQUANTUM,Lithuania,0,0
+PRXQUANTUM,Luxembourg,0,0
+PRXQUANTUM,Latvia,0,0
+PRXQUANTUM,Morocco,0,0
+PRXQUANTUM,Moldova,0,0
+PRXQUANTUM,Madagascar,0,0
+PRXQUANTUM,Mexico,3,0
+PRXQUANTUM,Macedonia,0,0
+PRXQUANTUM,Mali,0,0
+PRXQUANTUM,Myanmar,0,0
+PRXQUANTUM,Montenegro,0,0
+PRXQUANTUM,Mongolia,0,0
+PRXQUANTUM,Mozambique,0,0
+PRXQUANTUM,Mauritania,0,0
+PRXQUANTUM,Malawi,0,0
+PRXQUANTUM,Malaysia,0,0
+PRXQUANTUM,Namibia,0,0
+PRXQUANTUM,New Caledonia,0,0
+PRXQUANTUM,Niger,0,0
+PRXQUANTUM,Nigeria,0,0
+PRXQUANTUM,Nicaragua,0,0
+PRXQUANTUM,Netherlands,1,0
+PRXQUANTUM,Norway,0,0
+PRXQUANTUM,Nepal,0,0
+PRXQUANTUM,New Zealand,1,0
+PRXQUANTUM,Oman,0,0
+PRXQUANTUM,Pakistan,0,0
+PRXQUANTUM,Panama,0,0
+PRXQUANTUM,Peru,0,0
+PRXQUANTUM,Philippines,0,0
+PRXQUANTUM,Papua New Guinea,0,0
+PRXQUANTUM,Poland,0,0
+PRXQUANTUM,Puerto Rico,0,0
+PRXQUANTUM,North Korea,0,0
+PRXQUANTUM,Portugal,0,0
+PRXQUANTUM,Paraguay,0,0
+PRXQUANTUM,Qatar,0,0
+PRXQUANTUM,Romania,0,0
+PRXQUANTUM,Russia,2,0
+PRXQUANTUM,Rwanda,0,0
+PRXQUANTUM,Western Sahara,0,0
+PRXQUANTUM,Saudi Arabia,0,0
+PRXQUANTUM,Sudan,0,0
+PRXQUANTUM,South Sudan,0,0
+PRXQUANTUM,Senegal,0,0
+PRXQUANTUM,Solomon Islands,0,0
+PRXQUANTUM,Sierra Leone,0,0
+PRXQUANTUM,El Salvador,0,0
+PRXQUANTUM,Somaliland,0,0
+PRXQUANTUM,Somalia,0,0
+PRXQUANTUM,Republic of Serbia,0,0
+PRXQUANTUM,Suriname,0,0
+PRXQUANTUM,Slovakia,0,0
+PRXQUANTUM,Slovenia,0,0
+PRXQUANTUM,Sweden,0,0
+PRXQUANTUM,Swaziland,0,0
+PRXQUANTUM,Syria,0,0
+PRXQUANTUM,Chad,0,0
+PRXQUANTUM,Togo,0,0
+PRXQUANTUM,Thailand,0,0
+PRXQUANTUM,Tajikistan,0,0
+PRXQUANTUM,Turkmenistan,0,0
+PRXQUANTUM,East Timor,0,0
+PRXQUANTUM,Trinidad and Tobago,0,0
+PRXQUANTUM,Tunisia,0,0
+PRXQUANTUM,Turkey,0,0
+PRXQUANTUM,Taiwan,0,0
+PRXQUANTUM,United Republic of Tanzania,0,0
+PRXQUANTUM,Uganda,0,0
+PRXQUANTUM,Ukraine,0,0
+PRXQUANTUM,Uruguay,0,0
+PRXQUANTUM,USA,18,0
+PRXQUANTUM,Uzbekistan,0,0
+PRXQUANTUM,Venezuela,0,0
+PRXQUANTUM,Vietnam,0,0
+PRXQUANTUM,Vanuatu,0,0
+PRXQUANTUM,West Bank,0,0
+PRXQUANTUM,Yemen,0,0
+PRXQUANTUM,South Africa,0,0
+PRXQUANTUM,Zambia,0,0
+PRXQUANTUM,Zimbabwe,0,0
+RMP,Afghanistan,0,0
+RMP,Angola,0,0
+RMP,Albania,0,0
+RMP,United Arab Emirates,2,0
+RMP,Argentina,5,0
+RMP,Armenia,1,0
+RMP,Antarctica,0,0
+RMP,French Southern and Antarctic Lands,0,0
+RMP,Australia,47,0
+RMP,Austria,40,0
+RMP,Azerbaijan,0,0
+RMP,Burundi,0,0
+RMP,Belgium,32,0
+RMP,Benin,0,0
+RMP,Burkina Faso,0,0
+RMP,Bangladesh,1,0
+RMP,Bulgaria,4,0
+RMP,The Bahamas,0,0
+RMP,Bosnia and Herzegovina,0,0
+RMP,Belarus,0,0
+RMP,Belize,0,0
+RMP,Bolivia,0,0
+RMP,Brazil,11,0
+RMP,Brunei,0,0
+RMP,Bhutan,0,0
+RMP,Botswana,0,0
+RMP,Central African Republic,0,0
+RMP,Canada,111,0
+RMP,Switzerland,118,0
+RMP,Chile,1,0
+RMP,China,32,0
+RMP,Ivory Coast,0,0
+RMP,Cameroon,0,0
+RMP,Democratic Republic of the Congo,0,0
+RMP,Republic of the Congo,0,0
+RMP,Colombia,0,0
+RMP,Costa Rica,0,0
+RMP,Cuba,1,0
+RMP,Northern Cyprus,0,0
+RMP,Cyprus,1,0
+RMP,Czech Republic,13,0
+RMP,Germany,311,0
+RMP,Djibouti,0,0
+RMP,Denmark,48,0
+RMP,Dominican Republic,0,0
+RMP,Algeria,0,0
+RMP,Ecuador,0,0
+RMP,Egypt,1,0
+RMP,Eritrea,0,0
+RMP,Spain,64,0
+RMP,Estonia,1,0
+RMP,Ethiopia,0,0
+RMP,Finland,25,0
+RMP,Fiji,0,0
+RMP,Falkland Islands,0,0
+RMP,France,182,0
+RMP,Gabon,0,0
+RMP,England,164,0
+RMP,Georgia,12,0
+RMP,Ghana,0,0
+RMP,Guinea,0,0
+RMP,Gambia,0,0
+RMP,Guinea Bissau,0,0
+RMP,Equatorial Guinea,0,0
+RMP,Greece,1,0
+RMP,Greenland,0,0
+RMP,Guatemala,0,0
+RMP,Guyana,0,0
+RMP,Honduras,0,0
+RMP,Croatia,2,0
+RMP,Haiti,0,0
+RMP,Hungary,9,0
+RMP,Indonesia,0,0
+RMP,India,78,0
+RMP,Ireland,11,0
+RMP,Iran,1,0
+RMP,Iraq,0,0
+RMP,Iceland,0,0
+RMP,Israel,52,0
+RMP,Italy,97,0
+RMP,Jamaica,0,0
+RMP,Jordan,0,0
+RMP,Japan,99,0
+RMP,Kazakhstan,0,0
+RMP,Kenya,0,0
+RMP,Kyrgyzstan,0,0
+RMP,Cambodia,0,0
+RMP,South Korea,0,0
+RMP,Kosovo,0,0
+RMP,Kuwait,0,0
+RMP,Laos,0,0
+RMP,Lebanon,0,0
+RMP,Liberia,0,0
+RMP,Libya,1,0
+RMP,Sri Lanka,0,0
+RMP,Lesotho,0,0
+RMP,Lithuania,1,0
+RMP,Luxembourg,2,0
+RMP,Latvia,1,0
+RMP,Morocco,0,0
+RMP,Moldova,0,0
+RMP,Madagascar,0,0
+RMP,Mexico,74,0
+RMP,Macedonia,1,0
+RMP,Mali,0,0
+RMP,Myanmar,0,0
+RMP,Montenegro,1,0
+RMP,Mongolia,0,0
+RMP,Mozambique,0,0
+RMP,Mauritania,0,0
+RMP,Malawi,0,0
+RMP,Malaysia,1,0
+RMP,Namibia,0,0
+RMP,New Caledonia,0,0
+RMP,Niger,0,0
+RMP,Nigeria,0,0
+RMP,Nicaragua,0,0
+RMP,Netherlands,96,0
+RMP,Norway,15,0
+RMP,Nepal,0,0
+RMP,New Zealand,3,0
+RMP,Oman,6,0
+RMP,Pakistan,0,0
+RMP,Panama,0,0
+RMP,Peru,2,0
+RMP,Philippines,1,0
+RMP,Papua New Guinea,0,0
+RMP,Poland,22,0
+RMP,Puerto Rico,0,0
+RMP,North Korea,0,0
+RMP,Portugal,8,0
+RMP,Paraguay,0,0
+RMP,Qatar,1,0
+RMP,Romania,5,0
+RMP,Russia,44,0
+RMP,Rwanda,0,0
+RMP,Western Sahara,0,0
+RMP,Saudi Arabia,2,0
+RMP,Sudan,0,0
+RMP,South Sudan,0,0
+RMP,Senegal,0,0
+RMP,Solomon Islands,0,0
+RMP,Sierra Leone,0,0
+RMP,El Salvador,0,0
+RMP,Somaliland,0,0
+RMP,Somalia,0,0
+RMP,Republic of Serbia,0,0
+RMP,Suriname,0,0
+RMP,Slovakia,1,0
+RMP,Slovenia,6,0
+RMP,Sweden,46,0
+RMP,Swaziland,0,0
+RMP,Syria,0,0
+RMP,Chad,1,0
+RMP,Togo,0,0
+RMP,Thailand,1,0
+RMP,Tajikistan,0,0
+RMP,Turkmenistan,0,0
+RMP,East Timor,0,0
+RMP,Trinidad and Tobago,0,0
+RMP,Tunisia,0,0
+RMP,Turkey,4,0
+RMP,Taiwan,3,0
+RMP,United Republic of Tanzania,0,0
+RMP,Uganda,0,0
+RMP,Ukraine,8,0
+RMP,Uruguay,0,0
+RMP,USA,396,0
+RMP,Uzbekistan,0,0
+RMP,Venezuela,0,0
+RMP,Vietnam,0,0
+RMP,Vanuatu,0,0
+RMP,West Bank,0,0
+RMP,Yemen,0,0
+RMP,South Africa,4,0
+RMP,Zambia,0,0
+RMP,Zimbabwe,0,0
+PHYSICS,Afghanistan,0,0
+PHYSICS,Angola,0,0
+PHYSICS,Albania,0,0
+PHYSICS,United Arab Emirates,0,0
+PHYSICS,Argentina,0,0
+PHYSICS,Armenia,0,0
+PHYSICS,Antarctica,0,0
+PHYSICS,French Southern and Antarctic Lands,0,0
+PHYSICS,Australia,0,0
+PHYSICS,Austria,0,0
+PHYSICS,Azerbaijan,0,0
+PHYSICS,Burundi,0,0
+PHYSICS,Belgium,0,0
+PHYSICS,Benin,0,0
+PHYSICS,Burkina Faso,0,0
+PHYSICS,Bangladesh,0,0
+PHYSICS,Bulgaria,0,0
+PHYSICS,The Bahamas,0,0
+PHYSICS,Bosnia and Herzegovina,0,0
+PHYSICS,Belarus,0,0
+PHYSICS,Belize,0,0
+PHYSICS,Bolivia,0,0
+PHYSICS,Brazil,0,0
+PHYSICS,Brunei,0,0
+PHYSICS,Bhutan,0,0
+PHYSICS,Botswana,0,0
+PHYSICS,Central African Republic,0,0
+PHYSICS,Canada,0,0
+PHYSICS,Switzerland,0,0
+PHYSICS,Chile,0,0
+PHYSICS,China,0,0
+PHYSICS,Ivory Coast,0,0
+PHYSICS,Cameroon,0,0
+PHYSICS,Democratic Republic of the Congo,0,0
+PHYSICS,Republic of the Congo,0,0
+PHYSICS,Colombia,0,0
+PHYSICS,Costa Rica,0,0
+PHYSICS,Cuba,0,0
+PHYSICS,Northern Cyprus,0,0
+PHYSICS,Cyprus,0,0
+PHYSICS,Czech Republic,0,0
+PHYSICS,Germany,0,0
+PHYSICS,Djibouti,0,0
+PHYSICS,Denmark,0,0
+PHYSICS,Dominican Republic,0,0
+PHYSICS,Algeria,0,0
+PHYSICS,Ecuador,0,0
+PHYSICS,Egypt,0,0
+PHYSICS,Eritrea,0,0
+PHYSICS,Spain,0,0
+PHYSICS,Estonia,0,0
+PHYSICS,Ethiopia,0,0
+PHYSICS,Finland,0,0
+PHYSICS,Fiji,0,0
+PHYSICS,Falkland Islands,0,0
+PHYSICS,France,0,0
+PHYSICS,Gabon,0,0
+PHYSICS,England,0,0
+PHYSICS,Georgia,0,0
+PHYSICS,Ghana,0,0
+PHYSICS,Guinea,0,0
+PHYSICS,Gambia,0,0
+PHYSICS,Guinea Bissau,0,0
+PHYSICS,Equatorial Guinea,0,0
+PHYSICS,Greece,0,0
+PHYSICS,Greenland,0,0
+PHYSICS,Guatemala,0,0
+PHYSICS,Guyana,0,0
+PHYSICS,Honduras,0,0
+PHYSICS,Croatia,0,0
+PHYSICS,Haiti,0,0
+PHYSICS,Hungary,0,0
+PHYSICS,Indonesia,0,0
+PHYSICS,India,0,0
+PHYSICS,Ireland,0,0
+PHYSICS,Iran,0,0
+PHYSICS,Iraq,0,0
+PHYSICS,Iceland,0,0
+PHYSICS,Israel,0,0
+PHYSICS,Italy,0,0
+PHYSICS,Jamaica,0,0
+PHYSICS,Jordan,0,0
+PHYSICS,Japan,0,0
+PHYSICS,Kazakhstan,0,0
+PHYSICS,Kenya,0,0
+PHYSICS,Kyrgyzstan,0,0
+PHYSICS,Cambodia,0,0
+PHYSICS,South Korea,0,0
+PHYSICS,Kosovo,0,0
+PHYSICS,Kuwait,0,0
+PHYSICS,Laos,0,0
+PHYSICS,Lebanon,0,0
+PHYSICS,Liberia,0,0
+PHYSICS,Libya,0,0
+PHYSICS,Sri Lanka,0,0
+PHYSICS,Lesotho,0,0
+PHYSICS,Lithuania,0,0
+PHYSICS,Luxembourg,0,0
+PHYSICS,Latvia,0,0
+PHYSICS,Morocco,0,0
+PHYSICS,Moldova,0,0
+PHYSICS,Madagascar,0,0
+PHYSICS,Mexico,0,0
+PHYSICS,Macedonia,0,0
+PHYSICS,Mali,0,0
+PHYSICS,Myanmar,0,0
+PHYSICS,Montenegro,0,0
+PHYSICS,Mongolia,0,0
+PHYSICS,Mozambique,0,0
+PHYSICS,Mauritania,0,0
+PHYSICS,Malawi,0,0
+PHYSICS,Malaysia,0,0
+PHYSICS,Namibia,0,0
+PHYSICS,New Caledonia,0,0
+PHYSICS,Niger,0,0
+PHYSICS,Nigeria,0,0
+PHYSICS,Nicaragua,0,0
+PHYSICS,Netherlands,0,0
+PHYSICS,Norway,0,0
+PHYSICS,Nepal,0,0
+PHYSICS,New Zealand,0,0
+PHYSICS,Oman,0,0
+PHYSICS,Pakistan,0,0
+PHYSICS,Panama,0,0
+PHYSICS,Peru,0,0
+PHYSICS,Philippines,0,0
+PHYSICS,Papua New Guinea,0,0
+PHYSICS,Poland,0,0
+PHYSICS,Puerto Rico,0,0
+PHYSICS,North Korea,0,0
+PHYSICS,Portugal,0,0
+PHYSICS,Paraguay,0,0
+PHYSICS,Qatar,0,0
+PHYSICS,Romania,0,0
+PHYSICS,Russia,0,0
+PHYSICS,Rwanda,0,0
+PHYSICS,Western Sahara,0,0
+PHYSICS,Saudi Arabia,0,0
+PHYSICS,Sudan,0,0
+PHYSICS,South Sudan,0,0
+PHYSICS,Senegal,0,0
+PHYSICS,Solomon Islands,0,0
+PHYSICS,Sierra Leone,0,0
+PHYSICS,El Salvador,0,0
+PHYSICS,Somaliland,0,0
+PHYSICS,Somalia,0,0
+PHYSICS,Republic of Serbia,0,0
+PHYSICS,Suriname,0,0
+PHYSICS,Slovakia,0,0
+PHYSICS,Slovenia,0,0
+PHYSICS,Sweden,0,0
+PHYSICS,Swaziland,0,0
+PHYSICS,Syria,0,0
+PHYSICS,Chad,0,0
+PHYSICS,Togo,0,0
+PHYSICS,Thailand,0,0
+PHYSICS,Tajikistan,0,0
+PHYSICS,Turkmenistan,0,0
+PHYSICS,East Timor,0,0
+PHYSICS,Trinidad and Tobago,0,0
+PHYSICS,Tunisia,0,0
+PHYSICS,Turkey,0,0
+PHYSICS,Taiwan,0,0
+PHYSICS,United Republic of Tanzania,0,0
+PHYSICS,Uganda,0,0
+PHYSICS,Ukraine,0,0
+PHYSICS,Uruguay,0,0
+PHYSICS,USA,0,0
+PHYSICS,Uzbekistan,0,0
+PHYSICS,Venezuela,0,0
+PHYSICS,Vietnam,0,0
+PHYSICS,Vanuatu,0,0
+PHYSICS,West Bank,0,0
+PHYSICS,Yemen,0,0
+PHYSICS,South Africa,0,0
+PHYSICS,Zambia,0,0
+PHYSICS,Zimbabwe,0,0
+PRFOCUS,Afghanistan,0,0
+PRFOCUS,Angola,0,0
+PRFOCUS,Albania,0,0
+PRFOCUS,United Arab Emirates,0,0
+PRFOCUS,Argentina,0,0
+PRFOCUS,Armenia,0,0
+PRFOCUS,Antarctica,0,0
+PRFOCUS,French Southern and Antarctic Lands,0,0
+PRFOCUS,Australia,0,0
+PRFOCUS,Austria,0,0
+PRFOCUS,Azerbaijan,0,0
+PRFOCUS,Burundi,0,0
+PRFOCUS,Belgium,0,0
+PRFOCUS,Benin,0,0
+PRFOCUS,Burkina Faso,0,0
+PRFOCUS,Bangladesh,0,0
+PRFOCUS,Bulgaria,0,0
+PRFOCUS,The Bahamas,0,0
+PRFOCUS,Bosnia and Herzegovina,0,0
+PRFOCUS,Belarus,0,0
+PRFOCUS,Belize,0,0
+PRFOCUS,Bolivia,0,0
+PRFOCUS,Brazil,0,0
+PRFOCUS,Brunei,0,0
+PRFOCUS,Bhutan,0,0
+PRFOCUS,Botswana,0,0
+PRFOCUS,Central African Republic,0,0
+PRFOCUS,Canada,0,0
+PRFOCUS,Switzerland,0,0
+PRFOCUS,Chile,0,0
+PRFOCUS,China,0,0
+PRFOCUS,Ivory Coast,0,0
+PRFOCUS,Cameroon,0,0
+PRFOCUS,Democratic Republic of the Congo,0,0
+PRFOCUS,Republic of the Congo,0,0
+PRFOCUS,Colombia,0,0
+PRFOCUS,Costa Rica,0,0
+PRFOCUS,Cuba,0,0
+PRFOCUS,Northern Cyprus,0,0
+PRFOCUS,Cyprus,0,0
+PRFOCUS,Czech Republic,0,0
+PRFOCUS,Germany,0,0
+PRFOCUS,Djibouti,0,0
+PRFOCUS,Denmark,0,0
+PRFOCUS,Dominican Republic,0,0
+PRFOCUS,Algeria,0,0
+PRFOCUS,Ecuador,0,0
+PRFOCUS,Egypt,0,0
+PRFOCUS,Eritrea,0,0
+PRFOCUS,Spain,0,0
+PRFOCUS,Estonia,0,0
+PRFOCUS,Ethiopia,0,0
+PRFOCUS,Finland,0,0
+PRFOCUS,Fiji,0,0
+PRFOCUS,Falkland Islands,0,0
+PRFOCUS,France,0,0
+PRFOCUS,Gabon,0,0
+PRFOCUS,England,0,0
+PRFOCUS,Georgia,0,0
+PRFOCUS,Ghana,0,0
+PRFOCUS,Guinea,0,0
+PRFOCUS,Gambia,0,0
+PRFOCUS,Guinea Bissau,0,0
+PRFOCUS,Equatorial Guinea,0,0
+PRFOCUS,Greece,0,0
+PRFOCUS,Greenland,0,0
+PRFOCUS,Guatemala,0,0
+PRFOCUS,Guyana,0,0
+PRFOCUS,Honduras,0,0
+PRFOCUS,Croatia,0,0
+PRFOCUS,Haiti,0,0
+PRFOCUS,Hungary,0,0
+PRFOCUS,Indonesia,0,0
+PRFOCUS,India,0,0
+PRFOCUS,Ireland,0,0
+PRFOCUS,Iran,0,0
+PRFOCUS,Iraq,0,0
+PRFOCUS,Iceland,0,0
+PRFOCUS,Israel,0,0
+PRFOCUS,Italy,0,0
+PRFOCUS,Jamaica,0,0
+PRFOCUS,Jordan,0,0
+PRFOCUS,Japan,0,0
+PRFOCUS,Kazakhstan,0,0
+PRFOCUS,Kenya,0,0
+PRFOCUS,Kyrgyzstan,0,0
+PRFOCUS,Cambodia,0,0
+PRFOCUS,South Korea,0,0
+PRFOCUS,Kosovo,0,0
+PRFOCUS,Kuwait,0,0
+PRFOCUS,Laos,0,0
+PRFOCUS,Lebanon,0,0
+PRFOCUS,Liberia,0,0
+PRFOCUS,Libya,0,0
+PRFOCUS,Sri Lanka,0,0
+PRFOCUS,Lesotho,0,0
+PRFOCUS,Lithuania,0,0
+PRFOCUS,Luxembourg,0,0
+PRFOCUS,Latvia,0,0
+PRFOCUS,Morocco,0,0
+PRFOCUS,Moldova,0,0
+PRFOCUS,Madagascar,0,0
+PRFOCUS,Mexico,0,0
+PRFOCUS,Macedonia,0,0
+PRFOCUS,Mali,0,0
+PRFOCUS,Myanmar,0,0
+PRFOCUS,Montenegro,0,0
+PRFOCUS,Mongolia,0,0
+PRFOCUS,Mozambique,0,0
+PRFOCUS,Mauritania,0,0
+PRFOCUS,Malawi,0,0
+PRFOCUS,Malaysia,0,0
+PRFOCUS,Namibia,0,0
+PRFOCUS,New Caledonia,0,0
+PRFOCUS,Niger,0,0
+PRFOCUS,Nigeria,0,0
+PRFOCUS,Nicaragua,0,0
+PRFOCUS,Netherlands,0,0
+PRFOCUS,Norway,0,0
+PRFOCUS,Nepal,0,0
+PRFOCUS,New Zealand,0,0
+PRFOCUS,Oman,0,0
+PRFOCUS,Pakistan,0,0
+PRFOCUS,Panama,0,0
+PRFOCUS,Peru,0,0
+PRFOCUS,Philippines,0,0
+PRFOCUS,Papua New Guinea,0,0
+PRFOCUS,Poland,0,0
+PRFOCUS,Puerto Rico,0,0
+PRFOCUS,North Korea,0,0
+PRFOCUS,Portugal,0,0
+PRFOCUS,Paraguay,0,0
+PRFOCUS,Qatar,0,0
+PRFOCUS,Romania,0,0
+PRFOCUS,Russia,0,0
+PRFOCUS,Rwanda,0,0
+PRFOCUS,Western Sahara,0,0
+PRFOCUS,Saudi Arabia,0,0
+PRFOCUS,Sudan,0,0
+PRFOCUS,South Sudan,0,0
+PRFOCUS,Senegal,0,0
+PRFOCUS,Solomon Islands,0,0
+PRFOCUS,Sierra Leone,0,0
+PRFOCUS,El Salvador,0,0
+PRFOCUS,Somaliland,0,0
+PRFOCUS,Somalia,0,0
+PRFOCUS,Republic of Serbia,0,0
+PRFOCUS,Suriname,0,0
+PRFOCUS,Slovakia,0,0
+PRFOCUS,Slovenia,0,0
+PRFOCUS,Sweden,0,0
+PRFOCUS,Swaziland,0,0
+PRFOCUS,Syria,0,0
+PRFOCUS,Chad,0,0
+PRFOCUS,Togo,0,0
+PRFOCUS,Thailand,0,0
+PRFOCUS,Tajikistan,0,0
+PRFOCUS,Turkmenistan,0,0
+PRFOCUS,East Timor,0,0
+PRFOCUS,Trinidad and Tobago,0,0
+PRFOCUS,Tunisia,0,0
+PRFOCUS,Turkey,0,0
+PRFOCUS,Taiwan,0,0
+PRFOCUS,United Republic of Tanzania,0,0
+PRFOCUS,Uganda,0,0
+PRFOCUS,Ukraine,0,0
+PRFOCUS,Uruguay,0,0
+PRFOCUS,USA,0,0
+PRFOCUS,Uzbekistan,0,0
+PRFOCUS,Venezuela,0,0
+PRFOCUS,Vietnam,0,0
+PRFOCUS,Vanuatu,0,0
+PRFOCUS,West Bank,0,0
+PRFOCUS,Yemen,0,0
+PRFOCUS,South Africa,0,0
+PRFOCUS,Zambia,0,0
+PRFOCUS,Zimbabwe,0,0
+PPF,Afghanistan,0,0
+PPF,Angola,0,0
+PPF,Albania,0,0
+PPF,United Arab Emirates,0,0
+PPF,Argentina,0,0
+PPF,Armenia,0,0
+PPF,Antarctica,0,0
+PPF,French Southern and Antarctic Lands,0,0
+PPF,Australia,0,0
+PPF,Austria,0,0
+PPF,Azerbaijan,0,0
+PPF,Burundi,0,0
+PPF,Belgium,0,0
+PPF,Benin,0,0
+PPF,Burkina Faso,0,0
+PPF,Bangladesh,0,0
+PPF,Bulgaria,0,0
+PPF,The Bahamas,0,0
+PPF,Bosnia and Herzegovina,0,0
+PPF,Belarus,0,0
+PPF,Belize,0,0
+PPF,Bolivia,0,0
+PPF,Brazil,0,0
+PPF,Brunei,0,0
+PPF,Bhutan,0,0
+PPF,Botswana,0,0
+PPF,Central African Republic,0,0
+PPF,Canada,0,0
+PPF,Switzerland,0,0
+PPF,Chile,0,0
+PPF,China,0,0
+PPF,Ivory Coast,0,0
+PPF,Cameroon,0,0
+PPF,Democratic Republic of the Congo,0,0
+PPF,Republic of the Congo,0,0
+PPF,Colombia,0,0
+PPF,Costa Rica,0,0
+PPF,Cuba,0,0
+PPF,Northern Cyprus,0,0
+PPF,Cyprus,0,0
+PPF,Czech Republic,0,0
+PPF,Germany,0,0
+PPF,Djibouti,0,0
+PPF,Denmark,0,0
+PPF,Dominican Republic,0,0
+PPF,Algeria,0,0
+PPF,Ecuador,0,0
+PPF,Egypt,0,0
+PPF,Eritrea,0,0
+PPF,Spain,0,0
+PPF,Estonia,0,0
+PPF,Ethiopia,0,0
+PPF,Finland,0,0
+PPF,Fiji,0,0
+PPF,Falkland Islands,0,0
+PPF,France,0,0
+PPF,Gabon,0,0
+PPF,England,0,0
+PPF,Georgia,0,0
+PPF,Ghana,0,0
+PPF,Guinea,0,0
+PPF,Gambia,0,0
+PPF,Guinea Bissau,0,0
+PPF,Equatorial Guinea,0,0
+PPF,Greece,0,0
+PPF,Greenland,0,0
+PPF,Guatemala,0,0
+PPF,Guyana,0,0
+PPF,Honduras,0,0
+PPF,Croatia,0,0
+PPF,Haiti,0,0
+PPF,Hungary,0,0
+PPF,Indonesia,0,0
+PPF,India,0,0
+PPF,Ireland,0,0
+PPF,Iran,0,0
+PPF,Iraq,0,0
+PPF,Iceland,0,0
+PPF,Israel,0,0
+PPF,Italy,0,0
+PPF,Jamaica,0,0
+PPF,Jordan,0,0
+PPF,Japan,0,0
+PPF,Kazakhstan,0,0
+PPF,Kenya,0,0
+PPF,Kyrgyzstan,0,0
+PPF,Cambodia,0,0
+PPF,South Korea,0,0
+PPF,Kosovo,0,0
+PPF,Kuwait,0,0
+PPF,Laos,0,0
+PPF,Lebanon,0,0
+PPF,Liberia,0,0
+PPF,Libya,0,0
+PPF,Sri Lanka,0,0
+PPF,Lesotho,0,0
+PPF,Lithuania,0,0
+PPF,Luxembourg,0,0
+PPF,Latvia,0,0
+PPF,Morocco,0,0
+PPF,Moldova,0,0
+PPF,Madagascar,0,0
+PPF,Mexico,0,0
+PPF,Macedonia,0,0
+PPF,Mali,0,0
+PPF,Myanmar,0,0
+PPF,Montenegro,0,0
+PPF,Mongolia,0,0
+PPF,Mozambique,0,0
+PPF,Mauritania,0,0
+PPF,Malawi,0,0
+PPF,Malaysia,0,0
+PPF,Namibia,0,0
+PPF,New Caledonia,0,0
+PPF,Niger,0,0
+PPF,Nigeria,0,0
+PPF,Nicaragua,0,0
+PPF,Netherlands,0,0
+PPF,Norway,0,0
+PPF,Nepal,0,0
+PPF,New Zealand,0,0
+PPF,Oman,0,0
+PPF,Pakistan,0,0
+PPF,Panama,0,0
+PPF,Peru,0,0
+PPF,Philippines,0,0
+PPF,Papua New Guinea,0,0
+PPF,Poland,0,0
+PPF,Puerto Rico,0,0
+PPF,North Korea,0,0
+PPF,Portugal,0,0
+PPF,Paraguay,0,0
+PPF,Qatar,0,0
+PPF,Romania,0,0
+PPF,Russia,0,0
+PPF,Rwanda,0,0
+PPF,Western Sahara,0,0
+PPF,Saudi Arabia,0,0
+PPF,Sudan,0,0
+PPF,South Sudan,0,0
+PPF,Senegal,0,0
+PPF,Solomon Islands,0,0
+PPF,Sierra Leone,0,0
+PPF,El Salvador,0,0
+PPF,Somaliland,0,0
+PPF,Somalia,0,0
+PPF,Republic of Serbia,0,0
+PPF,Suriname,0,0
+PPF,Slovakia,0,0
+PPF,Slovenia,0,0
+PPF,Sweden,0,0
+PPF,Swaziland,0,0
+PPF,Syria,0,0
+PPF,Chad,0,0
+PPF,Togo,0,0
+PPF,Thailand,0,0
+PPF,Tajikistan,0,0
+PPF,Turkmenistan,0,0
+PPF,East Timor,0,0
+PPF,Trinidad and Tobago,0,0
+PPF,Tunisia,0,0
+PPF,Turkey,0,0
+PPF,Taiwan,0,0
+PPF,United Republic of Tanzania,0,0
+PPF,Uganda,0,0
+PPF,Ukraine,0,0
+PPF,Uruguay,0,0
+PPF,USA,0,0
+PPF,Uzbekistan,0,0
+PPF,Venezuela,0,0
+PPF,Vietnam,0,0
+PPF,Vanuatu,0,0
+PPF,West Bank,0,0
+PPF,Yemen,0,0
+PPF,South Africa,0,0
+PPF,Zambia,0,0
+PPF,Zimbabwe,0,0
+ALL,Afghanistan,1,0
+ALL,Angola,1,0
+ALL,Albania,4,0
+ALL,United Arab Emirates,156,0
+ALL,Argentina,5711,0
+ALL,Armenia,677,0
+ALL,Antarctica,0,0
+ALL,French Southern and Antarctic Lands,0,0
+ALL,Australia,11409,0
+ALL,Austria,7424,0
+ALL,Azerbaijan,117,0
+ALL,Burundi,4,0
+ALL,Belgium,8451,0
+ALL,Benin,27,0
+ALL,Burkina Faso,4,0
+ALL,Bangladesh,111,0
+ALL,Bulgaria,1190,0
+ALL,The Bahamas,6,0
+ALL,Bosnia and Herzegovina,100,0
+ALL,Belarus,642,0
+ALL,Belize,0,0
+ALL,Bolivia,17,0
+ALL,Brazil,14247,0
+ALL,Brunei,1,0
+ALL,Bhutan,0,0
+ALL,Botswana,9,0
+ALL,Central African Republic,0,0
+ALL,Canada,27294,0
+ALL,Switzerland,18947,0
+ALL,Chile,2574,0
+ALL,China,44489,0
+ALL,Ivory Coast,1,0
+ALL,Cameroon,126,0
+ALL,Democratic Republic of the Congo,0,0
+ALL,Republic of the Congo,0,0
+ALL,Colombia,759,0
+ALL,Costa Rica,59,0
+ALL,Cuba,261,0
+ALL,Northern Cyprus,8,0
+ALL,Cyprus,286,0
+ALL,Czech Republic,3896,0
+ALL,Germany,88006,0
+ALL,Djibouti,1,0
+ALL,Denmark,8090,0
+ALL,Dominican Republic,4,0
+ALL,Algeria,360,0
+ALL,Ecuador,167,0
+ALL,Egypt,539,0
+ALL,Eritrea,2,0
+ALL,Spain,22961,0
+ALL,Estonia,454,0
+ALL,Ethiopia,38,0
+ALL,Finland,5522,0
+ALL,Fiji,0,0
+ALL,Falkland Islands,0,0
+ALL,France,53160,0
+ALL,Gabon,7,0
+ALL,England,4994,0
+ALL,Georgia,4109,0
+ALL,Ghana,10,0
+ALL,Guinea,2,0
+ALL,Gambia,0,0
+ALL,Guinea Bissau,0,0
+ALL,Equatorial Guinea,0,0
+ALL,Greece,3681,0
+ALL,Greenland,0,0
+ALL,Guatemala,6,0
+ALL,Guyana,1,0
+ALL,Honduras,3,0
+ALL,Croatia,1292,0
+ALL,Haiti,0,0
+ALL,Hungary,4150,0
+ALL,Indonesia,205,0
+ALL,India,29387,0
+ALL,Ireland,2272,0
+ALL,Iran,2815,0
+ALL,Iraq,45,0
+ALL,Iceland,323,0
+ALL,Israel,15054,0
+ALL,Italy,32767,0
+ALL,Jamaica,58,0
+ALL,Jordan,134,0
+ALL,Japan,50824,0
+ALL,Kazakhstan,232,0
+ALL,Kenya,11,0
+ALL,Kyrgyzstan,16,0
+ALL,Cambodia,3,0
+ALL,South Korea,644,0
+ALL,Kosovo,0,0
+ALL,Kuwait,83,0
+ALL,Laos,0,0
+ALL,Lebanon,151,0
+ALL,Liberia,0,0
+ALL,Libya,17,0
+ALL,Sri Lanka,53,0
+ALL,Lesotho,1,0
+ALL,Lithuania,445,0
+ALL,Luxembourg,293,0
+ALL,Latvia,304,0
+ALL,Morocco,253,0
+ALL,Moldova,236,0
+ALL,Madagascar,3,0
+ALL,Mexico,17805,0
+ALL,Macedonia,116,0
+ALL,Mali,294,0
+ALL,Myanmar,9,0
+ALL,Montenegro,82,0
+ALL,Mongolia,97,0
+ALL,Mozambique,0,0
+ALL,Mauritania,0,0
+ALL,Malawi,0,0
+ALL,Malaysia,212,0
+ALL,Namibia,0,0
+ALL,New Caledonia,1,0
+ALL,Niger,79,0
+ALL,Nigeria,62,0
+ALL,Nicaragua,0,0
+ALL,Netherlands,13885,0
+ALL,Norway,2919,0
+ALL,Nepal,17,0
+ALL,New Zealand,1669,0
+ALL,Oman,2628,0
+ALL,Pakistan,569,0
+ALL,Panama,16,0
+ALL,Peru,694,0
+ALL,Philippines,88,0
+ALL,Papua New Guinea,1,0
+ALL,Poland,11804,0
+ALL,Puerto Rico,312,0
+ALL,North Korea,0,0
+ALL,Portugal,3812,0
+ALL,Paraguay,2,0
+ALL,Qatar,204,0
+ALL,Romania,1889,0
+ALL,Russia,23446,0
+ALL,Rwanda,1,0
+ALL,Western Sahara,0,0
+ALL,Saudi Arabia,747,0
+ALL,Sudan,23,0
+ALL,South Sudan,0,0
+ALL,Senegal,7,0
+ALL,Solomon Islands,0,0
+ALL,Sierra Leone,0,0
+ALL,El Salvador,0,0
+ALL,Somaliland,0,0
+ALL,Somalia,0,0
+ALL,Republic of Serbia,5,0
+ALL,Suriname,0,0
+ALL,Slovakia,1209,0
+ALL,Slovenia,1853,0
+ALL,Sweden,11813,0
+ALL,Swaziland,5,0
+ALL,Syria,17,0
+ALL,Chad,32,0
+ALL,Togo,11,0
+ALL,Thailand,368,0
+ALL,Tajikistan,8,0
+ALL,Turkmenistan,0,0
+ALL,East Timor,0,0
+ALL,Trinidad and Tobago,1,0
+ALL,Tunisia,157,0
+ALL,Turkey,2243,0
+ALL,Taiwan,6315,0
+ALL,United Republic of Tanzania,0,0
+ALL,Uganda,0,0
+ALL,Ukraine,4106,0
+ALL,Uruguay,246,0
+ALL,USA,116302,0
+ALL,Uzbekistan,353,0
+ALL,Venezuela,585,0
+ALL,Vietnam,479,0
+ALL,Vanuatu,0,0
+ALL,West Bank,36,0
+ALL,Yemen,11,0
+ALL,South Africa,2008,0
+ALL,Zambia,5,0
+ALL,Zimbabwe,3,0
