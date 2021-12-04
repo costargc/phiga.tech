@@ -11,6 +11,8 @@ phiga.tech is a working name for our group at CSE 6242: Data and Visual Analytic
 ![AWS](https://img.shields.io/badge/AWS-host-green.svg)
 ![mongoDB](https://img.shields.io/badge/mongoDB-database-yellow.svg)
 
+- [Poster link](https://github.com/costargc/phiga.tech/blob/main/Submission/DOC/team49poster.pdf)
+
 ### DESCRIPTION
 The data science and data visualization skills are now more important than ever in any research area specially in physics where navigating the body of knowledge, particularly the citations between publications and area of impact, remains a challenge for researchers. 
 Here we build a fully functional REST API with the data and performed an analysis to identify correlation between the many publication journals in physics.  We hope that this work can help scientists across the world in improving their research skills and finding out critical papers that would be otherwise a challenge to find.
