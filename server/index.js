@@ -161,7 +161,50 @@ app.get("/api", (req, res) => {
 });
 
 
+// All other GET requests not handled before will return our React app
 
+
+
+
+
+
+
+
+
+// START create map
+app.use(express.static(path.resolve(__dirname, '../choropleth')));
+
+app.get('/map/ratings-by-country.csv', (req, res) => {
+    res.sendFile(path.resolve(__dirname, '../choropleth', 'value-by-country.csv'));
+});
+
+app.get('/map/world_countries.json', (req, res) => {
+    res.sendFile(path.resolve(__dirname, '../choropleth', 'world_countries.json'));
+});
+
+app.get('/lib/d3.v5.min.js', (req, res) => {
+    res.sendFile(path.resolve(__dirname, '../choropleth/lib', 'd3.v5.min.js'));
+});
+
+app.get('/lib/d3-dsv.min.js', (req, res) => {
+    res.sendFile(path.resolve(__dirname, '../choropleth/lib', 'd3-dsv.min.js'));
+});
+
+app.get('/lib/d3-geo-projection.v2.min.js', (req, res) => {
+    res.sendFile(path.resolve(__dirname, '../choropleth/lib', 'd3-geo-projection.v2.min.js'));
+});
+
+
+app.get('/map', (req, res) => {
+    res.sendFile(path.resolve(__dirname, '../choropleth', 'index.html'));
+});
+
+// END create map
+
+
+
+
+app.use(express.static(path.resolve(__dirname, '../webclient/build')));
 // All other GET requests not handled before will return our React app
 app.get('*', (req, res) => {
     res.sendFile(path.resolve(__dirname, '../webclient/build', 'index.html'));

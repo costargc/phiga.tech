@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<head>
+    <!-- add title -->
+    <title>Groups Rating: 2015 - 2019</title>
+
+    <!-- bootstrap to make things clean -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <meta charset="utf-8">
+    <meta charset="utf-8">
+    <script type="text/javascript" src="../lib/d3.v5.min.js"></script>
+    <script type="text/javascript" src="../lib/d3-dsv.min.js"></script>
+    <script type="text/javascript" src="../lib/d3-geo-projection.v2.min.js"></script>
+
+
+    <style>
+        /* body {background: #003057;}
+        h3 {color: white;}
+        text, g {color: white !important;} */
+    </style>
+</head>
+
+
+<body>
+    <!-- Add heading for the visualization -->
+
+    <div class="row d-flex justify-content-center">
+        <text id="title">
+            <h3>Value of Board Groups Across the World</h3>
+        </text>
+    </div>
+
+    <div class="row d-flex justify-content-left">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <text id="title">
+                Select Board Group
+                <select name="Group" id="GroupDropdown">
+                    <!-- <option value="Catan" selected="selected">Catan</option> -->
+                </select>
+            </text>
+        </div>
+    </div>
+
+
+    <div class="row d-flex justify-content-center">
+        <svg></svg>
+        <div id="tooltip" style="visibility: hidden"></div>
+    </div>
+
+
+    <!-- Create dropdown element here. Options should be added after reading in Group file, they should not be created here.-->
+
+    <!-- append visualization svg to this div-->
+    <div id="choropleth"></div>
+
+    <script>
+
+        // enter code to define margin and dimensions for svg
+        w = 500;
+        h = 500;
+
+        // The svg
+        var svg = d3.select("svg")
+            .attr('width', w)
+            .attr('height', h)
+            .style('overflow', 'visible')
+            .style('margin-top', '30px')
+            .style('margin-bottom', '0px')
+
+        // Map and projection
+
+
+        // enter code to create color scale
+        // enter code to define tooltip
+
+
+        // enter code to define projection and path required for Choropleth
+        // For grading, set the name of functions for projection and path as "projection" and "path"
+        // var projection = 
+        // var path =
+
+        projection = d3.geoMercator()
+            .scale(w / 2 / Math.PI)
+            .translate([w / 2, h / 2])
+
+        path = d3.geoPath(projection)
+
+        // define any other global variables 
+
+        Promise.all([
+            // enter code to read files
+            d3.json('world_countries.json'),
+            d3.csv('value-by-country.csv')
+
+        ]).then(function (files) {
+            // enter code to call ready() with required arguments
+
+            var Groups_unique = files[1].map(function (obj) { return obj.Group; });
+            Groups_unique = Groups_unique.filter(function (v, i) { return Groups_unique.indexOf(v) == i; });
+
+            Groups_unique = Groups_unique.sort()
+
+            // console.log(Groups_unique);
+
+            // create list
+            // console.log(files[1].Group)
+
+            for (x in Groups_unique) {
+
+                if (Groups_unique[x] == "Catan") {
+                    d3.select("#GroupDropdown")
+                        .append("option")
+                        .attr("value", Groups_unique[x])
+                        .attr("id", Groups_unique[x])
+                        .attr("selected", 'selected')
+                        .text(Groups_unique[x]);
+                }
+
+                else {
+                    d3.select("#GroupDropdown")
+                        .append("option")
+                        .attr("value", Groups_unique[x])
+                        .attr("id", Groups_unique[x])
+                        .text(Groups_unique[x]);
+
+                }
+            }
+
+
+            document
+                .querySelector('#GroupDropdown')
+                .addEventListener('change', runatevent);
+
+            function runatevent() {
+                selection_Group = document.getElementById("GroupDropdown");
+                console.log(selection_Group.value);
+                // console.log(files[0],files[1])
+                createMapAndLegend(files[0], files[1], selection_Group.value)
+            }
+
+            selection_Group = document.getElementById("GroupDropdown");
+            createMapAndLegend(files[0], files[1], selection_Group.value)
+
+        });
+
+
+        // this function should be called once the data from files have been read
+        // world: topojson from world_countries.json
+        // GroupData: data from ratings-by-country.csv
+
+        function ready(error, world, GroupData) {
+            // enter code to extract all unique Groups from GroupData
+
+            // enter code to append the Group options to the dropdown
+
+            // event listener for the dropdown. Update choropleth and legend when selection changes. Call createMapAndLegend() with required arguments.
+
+            // create Choropleth with default option. Call createMapAndLegend() with required arguments. 
+        }
+
+        // this function should create a Choropleth and legend using the world and GroupData arguments for a selectedGroup
+        // also use this function to update Choropleth and legend when a different Group is selected from the dropdown
+        function createMapAndLegend(world, GroupData, selectedGroup) {
+
+
+            var filterdata = GroupData.filter(function (entry) {
+                return entry.Group === selectedGroup;
+            });
+
+            // console.log(filterdata)
+
+
+            result = []
+            for (var i in filterdata) {
+                result.push(filterdata[i]['Value'] * 1);
+            }
+
+            result = result.sort(function (a, b) {
+                return b - a;
+            });
+
+            // console.log(result)
+
+            threshold = d3.scaleQuantile()
+                .domain(result)
+                .range(d3.schemeOranges[4])
+
+
+
+            // console.log(filterdata['Value'])
+            // console.log(d3.schemeOranges[6][5])
+
+            d3.select("svg")
+                .selectAll("g")
+                .remove()
+
+            svg.append("g")
+                .attr("id", "countries")
+
+
+            d3.select("#countries")
+                .selectAll("path")
+                .data(world.features)
+                .enter().append("path")
+                .attr("fill", "#999999")
+                .attr("class", function (d) { return String(d.properties.name).replace(/ /g, "_") })
+                .attr("val1", function (d) { return d.properties.name })
+                .attr("val2", 'N/A')
+                .attr("val3", 'N/A')
+                .attr("d", d3.geoPath()
+                    .projection(projection)
+                )
+                .style("stroke", "#fff")
+                .on('mouseover', function () {
+                    // d3.select(this)
+                    // console.log(this.getAttribute('class'))
+
+                    // create a tooltip
+                    d3.select("#tooltip")
+                        .append("text")
+                        .attr("id", "innertooltip")
+                        .style("position", "absolute")
+                        .style("visibility", "visible")
+                        .style("background-color", "white")
+                        .style("top", (event.pageY) + "px")
+                        .style("left", (event.pageX) + "px")
+                        .style("border", "solid")
+                        .style("border-width", "1px")
+                        .style("border-radius", "5px")
+                        .style("padding", "10px")
+                        .html(
+                            '<div>Country: ' + this.getAttribute('val1') + '</div>\n' +
+                            '<div>Group: ' + selectedGroup + '</div>\n' +
+                            '<div>Value: ' + this.getAttribute('val2') + '</div>\n' +
+                            '<div>Key: ' + this.getAttribute('val3') + '</div>'
+                        );
+
+                })
+                .on("mouseout", function () {
+                    d3.select("#innertooltip")
+                        .remove()
+                })
+
+
+
+
+
+            legend_marks = []
+            legend_marks.push(0)
+
+            // console.log(result)
+
+            for (i = 0; i < result.length - 1; i++) {
+                if (threshold(result[i]) !== threshold(result[i + 1])) {
+                    legend_marks.push(i)
+                }
+            }
+            legend_marks.push(result.length - 1)
+
+
+            legend_marks.sort(function (a, b) { return b - a });
+            // console.log(legend_marks.map(d => result[d]))
+
+            legend_text = [
+                result[legend_marks[0]].toFixed(2) + " to " + result[legend_marks[1]].toFixed(2),
+                result[legend_marks[1] - 1].toFixed(2) + " to " + result[legend_marks[2]].toFixed(2),
+                result[legend_marks[2] - 1].toFixed(2) + " to " + result[legend_marks[3]].toFixed(2),
+                result[legend_marks[3] - 1].toFixed(2) + " to " + result[legend_marks[4]].toFixed(2)
+            ]
+
+
+            d3.select("svg")
+                .append('g')
+                .attr('id', 'legend')
+
+            size = 20
+            wl = 550
+            hl = 25
+            for (i = 0; i < 4; i++) {
+                d3.select("#legend")
+                    .append("rect")
+                    .attr("x", wl)
+                    .attr("y", hl + i * 25 - size / 2) // 100 is where the first dot appears. 25 is the distance between dots
+                    .attr("width", size)
+                    .attr("height", size)
+                    .style("fill", d3.schemeOranges[4][i])
+                    .style("stroke", "black")
+                    .style("stroke-width", '2px')
+                d3.select("#legend")
+                    .append("text")
+                    .attr("id", "legend")
+                    .attr("x", wl + 30)
+                    .attr("y", hl + i * 25)
+                    .text(legend_text[i])
+                    .style("font-size", "15px")
+                    .attr("alignment-baseline", "middle")
+            }
+
+
+            // console.log(filterdata)
+            for (i in filterdata) {
+                svg.select("." + String(filterdata[i].Country).replace(/ /g, "_"))
+                    .attr("fill", threshold(filterdata[i]['Value'] * 1))
+                    .attr("val1", filterdata[i]['Country'])
+                    .attr("val2", filterdata[i]['Value'] * 1)
+                    .attr("val3", filterdata[i]['Key'] * 1)
+            }
+
+            svg.select(".Antarctica").remove()
+
+
+        }
+
+    </script>
+
+</body>
+
+</html>
