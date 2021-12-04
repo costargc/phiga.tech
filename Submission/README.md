@@ -68,4 +68,4 @@ In order to execute the API you will be prompted with this screen and manual:
     Rodrigo Costa (costa@gatech.edu)
     Anthony Sena (asena8@gatech.edu)
     Ryan J Miller (rmiller307@gatech.edu)
-    Kamal Kishore Kashyap ()
+    Kamal Kishore Kashyap (kkashyap9@gatech.edu)
