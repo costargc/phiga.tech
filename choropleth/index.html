@@ -3,7 +3,7 @@
 
 <head>
     <!-- add title -->
-    <title>Groups Rating: 2015 - 2019</title>
+    <title>Groups Rating</title>
 
     <!-- bootstrap to make things clean -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -19,6 +19,7 @@
         /* body {background: #003057;}
         h3 {color: white;}
         text, g {color: white !important;} */
+        path {stroke: grey !important}
     </style>
 </head>
 
@@ -28,7 +29,7 @@
 
     <div class="row d-flex justify-content-center">
         <text id="title">
-            <h3>Value of Board Groups Across the World</h3>
+            <h3>APS Contributions Across the World</h3>
         </text>
     </div>
 
@@ -36,7 +37,7 @@
         <div class="col-md-3"></div>
         <div class="col-md-6">
             <text id="title">
-                Select Board Group
+                Select Journal Group
                 <select name="Group" id="GroupDropdown">
                     <!-- <option value="Catan" selected="selected">Catan</option> -->
                 </select>
@@ -184,11 +185,55 @@
 
             // console.log(result)
 
-            threshold = d3.scaleQuantile()
-                .domain(result)
-                .range(d3.schemeOranges[4])
+
+            // splitnum = 5
+            // threshold = d3.scaleQuantile()
+            //     .domain(result)
+            //     .range(d3.schemeBlues[splitnum])
+            // legend_marks = []
+            // legend_marks.push(0)
+            // for (i = 0; i < result.length - 1; i++) {
+            //     if (threshold(result[i]) !== threshold(result[i + 1])) {
+            //         legend_marks.push(i)
+            //     }
+            // } 
+            // legend_marks.push(result.length - 1)
+            // legend_marks.sort(function (a, b) { return b - a });
+            // legend_text = [(result[legend_marks[0]].toFixed(2) + " to " + result[legend_marks[1]].toFixed(2)).toString()];
+            // for (z = 1; z < splitnum; z = z + 1) {
+            //     legend_text.push((result[legend_marks[z] - 1].toFixed(2) + " to " + result[legend_marks[z + 1]].toFixed(2)).toString())
+            // }
 
 
+            //// legend_text = [
+            ////     result[legend_marks[0]].toFixed(2) + " to " + result[legend_marks[1]].toFixed(2),
+            ////     result[legend_marks[1] - 1].toFixed(2) + " to " + result[legend_marks[2]].toFixed(2),
+            ////     result[legend_marks[2] - 1].toFixed(2) + " to " + result[legend_marks[3]].toFixed(2),
+            ////     result[legend_marks[3] - 1].toFixed(2) + " to " + result[legend_marks[4]].toFixed(2)
+            //// ]
+            //// console.log(legend_text)
+
+
+            splitnum = 5
+            mycolors = d3.schemePuBu[splitnum]
+            threshold = d3.scaleLinear()
+                .domain([
+                    d3.min(result),
+                    (d3.max(result) - d3.min(result)) / 4 * 1,
+                    (d3.max(result) - d3.min(result)) / 4 * 2,
+                    (d3.max(result) - d3.min(result)) / 4 * 3,
+                    d3.max(result)
+                ])
+                .range(mycolors)
+            // console.log(d3.schemeBlues[splitnum])
+            legend_text = [
+                (d3.min(result)).toFixed(2) + " to " + ((d3.max(result) - d3.min(result)) / 5 * 1 - 1).toFixed(2),
+                ((d3.max(result) - d3.min(result)) / 5 * 1).toFixed(2) + " to " + ((d3.max(result) - d3.min(result)) / 5 * 2).toFixed(2),
+                ((d3.max(result) - d3.min(result)) / 5 * 2).toFixed(2) + " to " + ((d3.max(result) - d3.min(result)) / 5 * 3).toFixed(2),
+                ((d3.max(result) - d3.min(result)) / 5 * 3).toFixed(2) + " to " + ((d3.max(result) - d3.min(result)) / 5 * 4).toFixed(2),
+                ((d3.max(result) - d3.min(result)) / 5 * 4).toFixed(2) + " to " + ((d3.max(result) - d3.min(result)) / 5 * 5).toFixed(2)
+            ]
+            // console.log(legend_text)
 
             // console.log(filterdata['Value'])
             // console.log(d3.schemeOranges[6][5])
@@ -248,28 +293,9 @@
 
 
 
-            legend_marks = []
-            legend_marks.push(0)
-
-            // console.log(result)
-
-            for (i = 0; i < result.length - 1; i++) {
-                if (threshold(result[i]) !== threshold(result[i + 1])) {
-                    legend_marks.push(i)
-                }
-            }
-            legend_marks.push(result.length - 1)
 
 
-            legend_marks.sort(function (a, b) { return b - a });
-            // console.log(legend_marks.map(d => result[d]))
 
-            legend_text = [
-                result[legend_marks[0]].toFixed(2) + " to " + result[legend_marks[1]].toFixed(2),
-                result[legend_marks[1] - 1].toFixed(2) + " to " + result[legend_marks[2]].toFixed(2),
-                result[legend_marks[2] - 1].toFixed(2) + " to " + result[legend_marks[3]].toFixed(2),
-                result[legend_marks[3] - 1].toFixed(2) + " to " + result[legend_marks[4]].toFixed(2)
-            ]
 
 
             d3.select("svg")
@@ -279,14 +305,14 @@
             size = 20
             wl = 550
             hl = 25
-            for (i = 0; i < 4; i++) {
+            for (i = 0; i < splitnum; i++) {
                 d3.select("#legend")
                     .append("rect")
                     .attr("x", wl)
                     .attr("y", hl + i * 25 - size / 2) // 100 is where the first dot appears. 25 is the distance between dots
                     .attr("width", size)
                     .attr("height", size)
-                    .style("fill", d3.schemeOranges[4][i])
+                    .style("fill", mycolors[i])
                     .style("stroke", "black")
                     .style("stroke-width", '2px')
                 d3.select("#legend")
@@ -301,12 +327,12 @@
 
 
             // console.log(filterdata)
-            for (i in filterdata) {
-                svg.select("." + String(filterdata[i].Country).replace(/ /g, "_"))
-                    .attr("fill", threshold(filterdata[i]['Value'] * 1))
-                    .attr("val1", filterdata[i]['Country'])
-                    .attr("val2", filterdata[i]['Value'] * 1)
-                    .attr("val3", filterdata[i]['Key'] * 1)
+            for (j in filterdata) {
+                svg.select("." + String(filterdata[j].Country).replace(/ /g, "_"))
+                    .attr("fill", threshold(filterdata[j]['Value'] * 1))
+                    .attr("val1", filterdata[j]['Country'])
+                    .attr("val2", filterdata[j]['Value'] * 1)
+                    .attr("val3", filterdata[j]['Key'] * 1)
             }
 
             svg.select(".Antarctica").remove()
